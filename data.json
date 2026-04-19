@@ -1,38 +1,30 @@
 {
-  "updated": "2026-04-19T14:11:24Z",
+  "updated": "2026-04-19T14:15:47Z",
   "quotes": {
     "dow": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
+      "price": 49447.4297,
+      "change": 868.7097,
+      "pct": 1.7883
     },
     "sp500": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
+      "price": 7126.0601,
+      "change": 84.7801,
+      "pct": 1.204
     },
     "nasdaq": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
+      "price": 26672.4297,
+      "change": 339.4297,
+      "pct": 1.289
     },
     "russell": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
+      "price": 2776.8999,
+      "change": 57.2981,
+      "pct": 2.1069
     },
     "vix": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
-    },
-    "gold": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
-    },
-    "silver": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
-    },
-    "copper": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
-    },
-    "wti": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
-    },
-    "brent": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
-    },
-    "natgas": {
-      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
+      "price": 17.48,
+      "change": -0.46,
+      "pct": -2.5641
     },
     "kospi": {
       "price": 6191.9199,
@@ -43,6 +35,36 @@
       "price": 931.41,
       "change": -6.46,
       "pct": -0.6888
+    },
+    "gold": {
+      "price": 4879.6001,
+      "change": 65.5,
+      "pct": 1.3606
+    },
+    "silver": {
+      "price": 81.842,
+      "change": 2.852,
+      "pct": 3.6106
+    },
+    "copper": {
+      "price": 6.1145,
+      "change": 0.071,
+      "pct": 1.1748
+    },
+    "wti": {
+      "price": 82.59,
+      "change": -7.24,
+      "pct": -8.0597
+    },
+    "brent": {
+      "price": 90.38,
+      "change": -7.8,
+      "pct": -7.9446
+    },
+    "natgas": {
+      "price": 2.674,
+      "change": 0.016,
+      "pct": 0.602
     }
   },
   "fear_greed": {
