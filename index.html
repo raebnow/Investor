@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="미국 지수, 원자재, KOSPI, Weekend 시장, CNN 공포탐욕 지수를 한눈에 보는 투자자 대시보드">
+  <title>투자자 대시보드 | 실시간 시장 지표</title>
+  <!-- Google AdSense: 승인 후 ca-pub-XXXXXXXXXX를 실제 ID로 교체하세요 -->
+  <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="site-title">📈 투자자 대시보드</h1>
+      <div class="header-meta">
+        <span id="last-updated" class="last-updated">데이터 로딩 중...</span>
+        <button id="refresh-btn" class="refresh-btn" title="새로고침">↻ 새로고침</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- AdSense 상단 배너 (승인 후 주석 해제) -->
+  <!--
+  <div class="ad-banner">
+    <ins class="adsbygoogle" style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX"
+         data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+  -->
+
+  <main class="dashboard">
+
+    <!-- 행 1: 미국 지수 + 공포탐욕 -->
+    <section class="panel" id="panel-us">
+      <h2 class="panel-title">🇺🇸 미국 주요 지수</h2>
+      <div class="cards-grid cards-5">
+        <div class="card loading" id="card-dow">
+          <div class="card-label">Dow Jones</div>
+          <div class="card-ticker">US 30</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading" id="card-sp500">
+          <div class="card-label">S&amp;P 500</div>
+          <div class="card-ticker">US 500</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading" id="card-nasdaq">
+          <div class="card-label">Nasdaq 100</div>
+          <div class="card-ticker">US Tech 100</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading" id="card-russell">
+          <div class="card-label">Small Cap 2000</div>
+          <div class="card-ticker">Russell 2000</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading card-vix" id="card-vix">
+          <div class="card-label">S&amp;P 500 VIX</div>
+          <div class="card-ticker">Volatility</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel-fear" id="panel-fear">
+      <h2 class="panel-title">😱 공포 &amp; 탐욕</h2>
+      <div class="fear-widget loading" id="fear-widget">
+        <div class="fear-score-wrap">
+          <div class="fear-score" id="fear-score">—</div>
+          <div class="fear-label" id="fear-label">로딩 중</div>
+        </div>
+        <div class="fear-bar-wrap">
+          <div class="fear-bar-track">
+            <div class="fear-bar-marker" id="fear-bar-marker"></div>
+          </div>
+          <div class="fear-bar-labels">
+            <span>극도<br>공포</span>
+            <span>공포</span>
+            <span>중립</span>
+            <span>탐욕</span>
+            <span>극도<br>탐욕</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 행 2: 한국 지수 + Weekend 시장 (나란히 배치) -->
+    <div class="row2-wrap">
+    <section class="panel" id="panel-kr">
+      <h2 class="panel-title">🇰🇷 한국 지수</h2>
+      <div class="cards-grid cards-2">
+        <div class="card loading" id="card-kospi">
+          <div class="card-label">KOSPI</div>
+          <div class="card-ticker">주간</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading" id="card-kospi200">
+          <div class="card-label">KOSPI 200</div>
+          <div class="card-ticker">야간</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-weekend">
+      <h2 class="panel-title">🌙 Weekend 시장 <span class="weekend-badge">주말 한정</span></h2>
+      <div class="cards-grid cards-2">
+        <div class="card loading" id="card-w-nasdaq">
+          <div class="card-label">Weekend Nasdaq</div>
+          <div class="card-ticker">US Tech 100</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+          <a class="card-link" href="https://www.ig.com/en/indices/markets-indices/weekend-us-tech-100-e1" target="_blank" rel="noopener">IG.com ↗</a>
+        </div>
+        <div class="card loading" id="card-w-oil">
+          <div class="card-label">Weekend Oil</div>
+          <div class="card-ticker">US Crude</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+          <a class="card-link" href="https://www.ig.com/en/indices/markets-indices/weekend-oil---us-crude" target="_blank" rel="noopener">IG.com ↗</a>
+        </div>
+      </div>
+      <p class="section-note">※ IG.com 주말 전용 상품 — 평일에는 데이터가 없을 수 있습니다.</p>
+    </section>
+    </div><!-- /row2-wrap -->
+
+    <!-- 행 3: 원자재 (전체 폭) -->
+    <section class="panel panel-wide" id="panel-commodities">
+      <h2 class="panel-title">🛢️ 원자재 &amp; 귀금속</h2>
+      <div class="cards-grid cards-6">
+        <div class="card loading" id="card-gold">
+          <div class="card-label">Gold</div>
+          <div class="card-ticker">금 · GC=F</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading" id="card-silver">
+          <div class="card-label">Silver</div>
+          <div class="card-ticker">은 · SI=F</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading" id="card-copper">
+          <div class="card-label">Copper</div>
+          <div class="card-ticker">구리 · HG=F</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading" id="card-wti">
+          <div class="card-label">WTI Crude Oil</div>
+          <div class="card-ticker">원유 · CL=F</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading" id="card-brent">
+          <div class="card-label">Brent Oil</div>
+          <div class="card-ticker">브렌트 · BZ=F</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+        <div class="card loading" id="card-natgas">
+          <div class="card-label">Natural Gas</div>
+          <div class="card-ticker">천연가스 · NG=F</div>
+          <div class="card-price">—</div>
+          <div class="card-change">—</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- AdSense 하단 배너 (승인 후 주석 해제) -->
+  <!--
+  <div class="ad-banner">
+    <ins class="adsbygoogle" style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXX" data-ad-slot="XXXXXXXXXX"
+         data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+  -->
+
+  <footer class="site-footer">
+    <p class="footer-note">데이터: Yahoo Finance · CNN Fear &amp; Greed · IG.com | 투자 참고용이며 투자 권유가 아닙니다.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
