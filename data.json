@@ -1,0 +1,63 @@
+{
+  "updated": "2026-04-19T14:11:24Z",
+  "quotes": {
+    "dow": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
+    },
+    "sp500": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
+    },
+    "nasdaq": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
+    },
+    "russell": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
+    },
+    "vix": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/indices/indices-futures"
+    },
+    "gold": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
+    },
+    "silver": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
+    },
+    "copper": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
+    },
+    "wti": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
+    },
+    "brent": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
+    },
+    "natgas": {
+      "error": "403 Client Error: Forbidden for url: https://www.investing.com/commodities/real-time-futures"
+    },
+    "kospi": {
+      "price": 6191.9199,
+      "change": -34.1301,
+      "pct": -0.5482
+    },
+    "kospi200": {
+      "price": 931.41,
+      "change": -6.46,
+      "pct": -0.6888
+    }
+  },
+  "fear_greed": {
+    "score": 71
+  },
+  "weekend": {
+    "nasdaq": {
+      "price": 26504.5,
+      "change": -162.0,
+      "pct": -0.61
+    },
+    "oil": {
+      "price": 8637.6,
+      "change": 329.8,
+      "pct": 3.95
+    }
+  }
+}
