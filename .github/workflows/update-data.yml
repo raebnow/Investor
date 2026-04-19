@@ -3,7 +3,7 @@ name: Update Market Data
 on:
   schedule:
     # 15분마다 실행 (UTC 기준)
-    - cron: '*/15 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:  # 수동 실행 버튼
 
 jobs:
