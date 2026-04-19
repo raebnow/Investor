@@ -3,16 +3,32 @@ GitHub Actions에서 실행 - 시장 데이터를 수집해 data.json으로 저�
 pip install yfinance requests beautifulsoup4
 """
 import json
-import re
 from datetime import datetime, timezone
 
 import requests
 import yfinance as yf
 from bs4 import BeautifulSoup
 
-# ───── investing.com 설정 ──────────────────────────────────────
-INV_INDICES_URL    = 'https://www.investing.com/indices/indices-futures'
-INV_COMMODITIES_URL = 'https://www.investing.com/commodities/real-time-futures'
+# ───── Yahoo Finance 심볼 ─────────────────────────────────────
+YAHOO_SYMBOLS = {
+    'dow':      '^DJI',
+    'sp500':    '^GSPC',
+    'nasdaq':   '^NDX',
+    'russell':  '^RUT',
+    'vix':      '^VIX',
+    'kospi':    '^KS11',
+    'kospi200': '^KS200',
+    'gold':     'GC=F',
+    'silver':   'SI=F',
+    'copper':   'HG=F',
+    'wti':      'CL=F',
+    'brent':    'BZ=F',
+    'natgas':   'NG=F',
+}
+
+FEAR_GREED_URL = 'https://feargreedchart.com/api/?action=all'
+IG_NASDAQ_URL  = 'https://www.ig.com/en/indices/markets-indices/weekend-us-tech-100-e1'
+IG_OIL_URL     = 'https://www.ig.com/en/indices/markets-indices/weekend-oil---us-crude'
 
 BROWSER_HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
@@ -22,108 +38,15 @@ BROWSER_HEADERS = {
     'Accept-Encoding': 'gzip, deflate',
 }
 
-# ───── investing.com name → 내부 key 매핑 ──────────────────────
-INDEX_NAME_MAP = {
-    'US 30':          'dow',
-    'US 500':         'sp500',
-    'US Tech 100':    'nasdaq',
-    'Small Cap 2000': 'russell',
-    'S&P 500 VIX':    'vix',
-}
 
-COMMODITY_NAME_MAP = {
-    'Gold':         'gold',
-    'Silver':       'silver',
-    'Copper':       'copper',
-    'Crude Oil WTI': 'wti',
-    'Brent Oil':    'brent',
-    'Natural Gas':  'natgas',
-}
-
-# ───── KOSPI (Yahoo Finance) ──────────────────────────────────
-KOSPI_SYMBOLS = {
-    'kospi':    '^KS11',
-    'kospi200': '^KS200',
-}
-
-# ───── IG Weekend 설정 ────────────────────────────────────────
-IG_NASDAQ_URL = 'https://www.ig.com/en/indices/markets-indices/weekend-us-tech-100-e1'
-IG_OIL_URL    = 'https://www.ig.com/en/indices/markets-indices/weekend-oil---us-crude'
-FEAR_GREED_URL = 'https://feargreedchart.com/api/?action=all'
-
-
-# ───── investing.com __NEXT_DATA__ 파싱 ──────────────────────
-def _fetch_next_data(url: str) -> dict:
-    resp = requests.get(url, headers=BROWSER_HEADERS, timeout=30)
-    resp.raise_for_status()
-    m = re.search(r'<script id="__NEXT_DATA__" type="application/json">(.*?)</script>',
-                  resp.text, re.DOTALL)
-    if not m:
-        raise ValueError('__NEXT_DATA__ not found')
-    return json.loads(m.group(1))
-
-
-def _extract_collection(next_data: dict) -> list:
-    """__NEXT_DATA__ state에서 _collection 배열을 찾아 반환."""
-    state = next_data.get('props', {}).get('pageProps', {}).get('state', {})
-
-    # commodities 페이지: assetsCollectionStore.assetsCollection._collection
-    ac = state.get('assetsCollectionStore', {}).get('assetsCollection', {})
-    if '_collection' in ac and ac['_collection']:
-        return ac['_collection']
-
-    # indices 페이지: multiAssetsCollectionStore.multiAssetsCollections.*._collection
-    colls = state.get('multiAssetsCollectionStore', {}).get('multiAssetsCollections', {})
-    for coll_val in colls.values():
-        if isinstance(coll_val, dict) and coll_val.get('_collection'):
-            return coll_val['_collection']
-
-    return []
-
-
-def fetch_investing_data(url: str, name_map: dict) -> dict:
-    results = {}
-    try:
-        nd = _fetch_next_data(url)
-        collection = _extract_collection(nd)
-        if not collection:
-            raise ValueError('collection empty')
-        by_name = {}
-        for item in collection:
-            name = item.get('name', '')
-            if name not in by_name:  # first occurrence wins (e.g. CMX Copper over LME)
-                by_name[name] = item
-        for inv_name, key in name_map.items():
-            item = by_name.get(inv_name)
-            if not item:
-                results[key] = {'error': f'{inv_name} not found'}
-                continue
-            last   = item.get('last')
-            change = item.get('changeOneDay')
-            pct    = item.get('changeOneDayPercent')
-            if last is None:
-                results[key] = {'error': '가격 없음'}
-                continue
-            results[key] = {
-                'price':  round(float(last),   4),
-                'change': round(float(change), 4) if change is not None else None,
-                'pct':    round(float(pct),    4) if pct    is not None else None,
-            }
-    except Exception as e:
-        for key in name_map.values():
-            results[key] = {'error': str(e)}
-    return results
-
-
-# ───── Yahoo Finance (KOSPI only) ────────────────────────────
-def fetch_yahoo_kospi(symbols: dict) -> dict:
+# ───── Yahoo Finance ──────────────────────────────────────────
+def fetch_yahoo_all(symbols: dict) -> dict:
     results = {}
     try:
         tickers = yf.Tickers(' '.join(symbols.values()))
         for key, sym in symbols.items():
             try:
-                t  = tickers.tickers[sym]
-                fi = t.fast_info
+                fi    = tickers.tickers[sym].fast_info
                 price = fi.last_price
                 prev  = fi.previous_close
                 if price is None or prev is None:
@@ -202,22 +125,10 @@ def fetch_ig_price(url: str) -> dict:
 
 # ───── 메인 ──────────────────────────────────────────────────
 def main():
-    print('investing.com 지수 수집 중...')
-    idx_quotes = fetch_investing_data(INV_INDICES_URL, INDEX_NAME_MAP)
-    for k, v in idx_quotes.items():
+    print('Yahoo Finance 수집 중...')
+    quotes = fetch_yahoo_all(YAHOO_SYMBOLS)
+    for k, v in quotes.items():
         print(f'  {k}: {v}')
-
-    print('investing.com 원자재 수집 중...')
-    com_quotes = fetch_investing_data(INV_COMMODITIES_URL, COMMODITY_NAME_MAP)
-    for k, v in com_quotes.items():
-        print(f'  {k}: {v}')
-
-    print('Yahoo Finance (KOSPI) 수집 중...')
-    kospi_quotes = fetch_yahoo_kospi(KOSPI_SYMBOLS)
-    for k, v in kospi_quotes.items():
-        print(f'  {k}: {v}')
-
-    quotes = {**idx_quotes, **com_quotes, **kospi_quotes}
 
     print('Fear & Greed 수집 중...')
     fear_greed = fetch_fear_greed()
