@@ -1,30 +1,30 @@
 {
-  "updated": "2026-04-22T15:38:36Z",
+  "updated": "2026-04-22T16:41:38Z",
   "quotes": {
     "dow": {
-      "price": 49495.6211,
-      "change": 344.8594,
-      "pct": 0.7016
+      "price": 49467.1094,
+      "change": 316.3477,
+      "pct": 0.6436
     },
     "sp500": {
-      "price": 7123.8999,
-      "change": 59.5898,
-      "pct": 0.8435
+      "price": 7120.2998,
+      "change": 55.9897,
+      "pct": 0.7926
     },
     "nasdaq": {
-      "price": 26844.7988,
-      "change": 365.3288,
-      "pct": 1.3797
+      "price": 26833.8945,
+      "change": 354.4245,
+      "pct": 1.3385
     },
     "russell": {
-      "price": 2783.0239,
-      "change": 18.3457,
-      "pct": 0.6636
+      "price": 2776.918,
+      "change": 12.2397,
+      "pct": 0.4427
     },
     "vix": {
-      "price": 19.23,
-      "change": -0.26,
-      "pct": -1.334
+      "price": 19.36,
+      "change": -0.13,
+      "pct": -0.667
     },
     "kospi": {
       "price": 6417.93,
@@ -37,34 +37,34 @@
       "pct": 0.2349
     },
     "gold": {
-      "price": 4750.5,
-      "change": -26.5,
-      "pct": -0.5547
+      "price": 4744.5,
+      "change": -32.5,
+      "pct": -0.6803
     },
     "silver": {
-      "price": 77.965,
-      "change": -0.12,
-      "pct": -0.1537
+      "price": 77.715,
+      "change": -0.37,
+      "pct": -0.4738
     },
     "copper": {
-      "price": 6.122,
-      "change": 0.0795,
-      "pct": 1.3157
+      "price": 6.1225,
+      "change": 0.08,
+      "pct": 1.324
     },
     "wti": {
-      "price": 92.27,
-      "change": 3.02,
-      "pct": 3.3837
+      "price": 93.33,
+      "change": 4.08,
+      "pct": 4.5714
     },
     "brent": {
-      "price": 95.86,
-      "change": 2.96,
-      "pct": 3.1862
+      "price": 101.82,
+      "change": 8.92,
+      "pct": 9.6017
     },
     "natgas": {
-      "price": 2.749,
-      "change": 0.035,
-      "pct": 1.2896
+      "price": 2.748,
+      "change": 0.034,
+      "pct": 1.2528
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 26825.5,
-      "change": 271.4,
-      "pct": 1.02
+      "price": 26803.9,
+      "change": 249.8,
+      "pct": 0.94
     },
     "oil": {
-      "price": 9183.1,
-      "change": 343.0,
-      "pct": 3.87
+      "price": 9269.1,
+      "change": 429.0,
+      "pct": 4.84
     }
   }
 }
