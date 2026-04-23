@@ -1,30 +1,30 @@
 {
-  "updated": "2026-04-23T18:48:32Z",
+  "updated": "2026-04-23T19:59:23Z",
   "quotes": {
     "dow": {
-      "price": 49299.0586,
-      "change": -188.9531,
-      "pct": -0.3818
+      "price": 49327.1797,
+      "change": -160.832,
+      "pct": -0.325
     },
     "sp500": {
-      "price": 7108.3198,
-      "change": -28.8003,
-      "pct": -0.4035
+      "price": 7110.2402,
+      "change": -26.8799,
+      "pct": -0.3766
     },
     "nasdaq": {
-      "price": 26787.3184,
-      "change": -149.9566,
-      "pct": -0.5567
+      "price": 26789.2266,
+      "change": -148.0484,
+      "pct": -0.5496
     },
     "russell": {
-      "price": 2774.9597,
-      "change": -10.4165,
-      "pct": -0.374
+      "price": 2766.1941,
+      "change": -19.1821,
+      "pct": -0.6887
     },
     "vix": {
-      "price": 19.23,
-      "change": 0.32,
-      "pct": 1.6922
+      "price": 19.47,
+      "change": 0.56,
+      "pct": 2.9614
     },
     "kospi": {
       "price": 6475.81,
@@ -37,49 +37,49 @@
       "pct": 1.1508
     },
     "gold": {
-      "price": 4735.2998,
-      "change": 15.2998,
-      "pct": 0.3241
+      "price": 4713.3999,
+      "change": -6.6001,
+      "pct": -0.1398
     },
     "silver": {
-      "price": 76.11,
-      "change": 0.04,
-      "pct": 0.0526
+      "price": 75.53,
+      "change": -0.54,
+      "pct": -0.7099
     },
     "copper": {
-      "price": 6.0585,
-      "change": 0.026,
-      "pct": 0.431
+      "price": 6.0355,
+      "change": 0.003,
+      "pct": 0.0497
     },
     "wti": {
-      "price": 95.33,
-      "change": 0.78,
-      "pct": 0.825
+      "price": 96.48,
+      "change": 1.93,
+      "pct": 2.0412
     },
     "brent": {
-      "price": 104.57,
-      "change": 1.15,
-      "pct": 1.112
+      "price": 105.72,
+      "change": 2.3,
+      "pct": 2.2239
     },
     "natgas": {
-      "price": 2.751,
-      "change": 0.03,
-      "pct": 1.1025
+      "price": 2.739,
+      "change": 0.018,
+      "pct": 0.6615
     }
   },
   "fear_greed": {
-    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Read timed out. (read timeout=15)"
+    "score": 63
   },
   "weekend": {
     "nasdaq": {
-      "price": 26768.4,
-      "change": -173.7,
-      "pct": -0.64
+      "price": 26718.4,
+      "change": -223.7,
+      "pct": -0.83
     },
     "oil": {
-      "price": 9512.7,
-      "change": 278.8,
-      "pct": 3.01
+      "price": 9575.2,
+      "change": -3.1,
+      "pct": -0.03
     }
   }
 }
