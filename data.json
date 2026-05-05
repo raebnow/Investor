@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-04T23:29:29Z",
+  "updated": "2026-05-05T01:13:43Z",
   "quotes": {
     "dow": {
       "price": 48941.8984,
@@ -37,49 +37,49 @@
       "pct": 5.7965
     },
     "gold": {
-      "price": 4528.8999,
-      "change": -98.8999,
-      "pct": -2.1371
+      "price": 4542.3999,
+      "change": -85.3999,
+      "pct": -1.8454
     },
     "silver": {
-      "price": 73.09,
-      "change": -3.2,
-      "pct": -4.1945
+      "price": 73.32,
+      "change": -2.97,
+      "pct": -3.893
     },
     "copper": {
-      "price": 5.8605,
-      "change": -0.1395,
-      "pct": -2.325
+      "price": 5.8655,
+      "change": -0.1345,
+      "pct": -2.2417
     },
     "wti": {
-      "price": 104.84,
-      "change": 2.95,
-      "pct": 2.8953
+      "price": 104.92,
+      "change": 3.03,
+      "pct": 2.9738
     },
     "brent": {
-      "price": 113.84,
-      "change": 5.42,
-      "pct": 4.9991
+      "price": 113.82,
+      "change": 5.4,
+      "pct": 4.9806
     },
     "natgas": {
-      "price": 2.849,
-      "change": 0.016,
-      "pct": 0.5648
+      "price": 2.845,
+      "change": 0.012,
+      "pct": 0.4236
     }
   },
   "fear_greed": {
-    "score": 64
+    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Read timed out. (read timeout=15)"
   },
   "weekend": {
     "nasdaq": {
-      "price": 27626.2,
-      "change": 18.3,
-      "pct": 0.07
+      "price": 27639.6,
+      "change": 31.7,
+      "pct": 0.11
     },
     "oil": {
-      "price": 10231.1,
-      "change": -74.4,
-      "pct": -0.72
+      "price": 10228.3,
+      "change": -77.2,
+      "pct": -0.75
     }
   }
 }
