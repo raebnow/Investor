@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-11T04:18:47Z",
+  "updated": "2026-05-11T07:57:33Z",
   "quotes": {
     "dow": {
       "price": 49609.1602,
@@ -22,64 +22,64 @@
       "pct": 0.7601
     },
     "vix": {
-      "price": 17.19,
-      "change": 0.11,
-      "pct": 0.644
+      "price": 18.21,
+      "change": 1.03,
+      "pct": 5.9953
     },
     "kospi": {
-      "price": 7835.5601,
-      "change": 344.8501,
-      "pct": 4.6037
+      "price": 7822.2402,
+      "change": 324.2402,
+      "pct": 4.3244
     },
     "kospi200": {
-      "price": 1212.8101,
-      "change": 63.63,
-      "pct": 5.537
+      "price": 1211.4399,
+      "change": 60.2699,
+      "pct": 5.2355
     },
     "gold": {
-      "price": 4686.5,
-      "change": -12.6001,
-      "pct": -0.2681
+      "price": 4676.3999,
+      "change": -10.6001,
+      "pct": -0.2262
     },
     "silver": {
-      "price": 81.22,
-      "change": 0.46,
-      "pct": 0.5696
+      "price": 80.72,
+      "change": -0.48,
+      "pct": -0.5911
     },
     "copper": {
-      "price": 6.338,
-      "change": 0.031,
-      "pct": 0.4915
+      "price": 6.3175,
+      "change": -0.0255,
+      "pct": -0.402
     },
     "wti": {
-      "price": 100.15,
-      "change": 0.97,
-      "pct": 0.978
+      "price": 98.81,
+      "change": -1.13,
+      "pct": -1.1307
     },
     "brent": {
-      "price": 105.79,
-      "change": 0.87,
-      "pct": 0.8292
+      "price": 104.79,
+      "change": -0.84,
+      "pct": -0.7952
     },
     "natgas": {
-      "price": 2.812,
-      "change": -0.015,
-      "pct": -0.5306
+      "price": 2.811,
+      "change": 0.001,
+      "pct": 0.0356
     }
   },
   "fear_greed": {
-    "score": 67
+    "score": 62
   },
   "weekend": {
     "nasdaq": {
-      "price": 29189.3,
-      "change": -18.2,
+      "price": 29190.2,
+      "change": -17.3,
       "pct": -0.06
     },
     "oil": {
-      "price": 9702.8,
-      "change": 487.7,
-      "pct": 5.28
+      "price": 9603.0,
+      "change": 387.9,
+      "pct": 4.2
     }
   }
 }
