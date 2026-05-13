@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-13T04:16:39Z",
+  "updated": "2026-05-13T07:31:17Z",
   "quotes": {
     "dow": {
       "price": 49760.5586,
@@ -22,49 +22,49 @@
       "pct": -0.9688
     },
     "vix": {
-      "price": 17.99,
-      "change": -0.38,
-      "pct": -2.0686
+      "price": 17.98,
+      "change": -0.01,
+      "pct": -0.0556
     },
     "kospi": {
-      "price": 7778.0,
-      "change": 141.52,
-      "pct": 1.8532
+      "price": 7844.0098,
+      "change": 200.8598,
+      "pct": 2.628
     },
     "kospi200": {
-      "price": 1207.77,
-      "change": 25.5,
-      "pct": 2.1569
+      "price": 1220.17,
+      "change": 36.76,
+      "pct": 3.1063
     },
     "gold": {
-      "price": 4706.2002,
-      "change": -3.5996,
-      "pct": -0.0764
+      "price": 4715.7002,
+      "change": 12.2002,
+      "pct": 0.2594
     },
     "silver": {
-      "price": 87.475,
-      "change": 0.155,
-      "pct": 0.1775
+      "price": 87.655,
+      "change": 0.46,
+      "pct": 0.5276
     },
     "copper": {
-      "price": 6.6485,
-      "change": 0.017,
-      "pct": 0.2564
+      "price": 6.635,
+      "change": 0.0185,
+      "pct": 0.2796
     },
     "wti": {
-      "price": 100.97,
-      "change": -0.2,
-      "pct": -0.1977
+      "price": 100.79,
+      "change": -0.19,
+      "pct": -0.1882
     },
     "brent": {
-      "price": 106.52,
-      "change": -0.08,
-      "pct": -0.075
+      "price": 106.37,
+      "change": -0.13,
+      "pct": -0.1221
     },
     "natgas": {
-      "price": 2.828,
-      "change": 0.006,
-      "pct": 0.2126
+      "price": 2.836,
+      "change": 0.014,
+      "pct": 0.4961
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 29139.1,
-      "change": 128.5,
-      "pct": 0.44
+      "price": 29191.4,
+      "change": 180.8,
+      "pct": 0.62
     },
     "oil": {
-      "price": 9778.8,
-      "change": -154.6,
-      "pct": -1.55
+      "price": 9772.6,
+      "change": -160.8,
+      "pct": -1.61
     }
   }
 }
