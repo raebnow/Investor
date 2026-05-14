@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-14T05:29:30Z",
+  "updated": "2026-05-14T08:11:23Z",
   "quotes": {
     "dow": {
       "price": 49693.1992,
@@ -22,64 +22,64 @@
       "pct": 0.0387
     },
     "vix": {
-      "price": 17.87,
-      "change": -0.12,
-      "pct": -0.667
+      "price": 17.79,
+      "change": -0.08,
+      "pct": -0.4477
     },
     "kospi": {
-      "price": 7880.3799,
-      "change": 34.0898,
-      "pct": 0.4345
+      "price": 7981.4102,
+      "change": 137.4002,
+      "pct": 1.7517
     },
     "kospi200": {
-      "price": 1227.3,
-      "change": 5.8401,
-      "pct": 0.4781
+      "price": 1243.17,
+      "change": 23.0,
+      "pct": 1.885
     },
     "gold": {
-      "price": 4704.2998,
-      "change": 23.5,
-      "pct": 0.5021
+      "price": 4706.7002,
+      "change": 25.9004,
+      "pct": 0.5533
     },
     "silver": {
-      "price": 87.53,
-      "change": 0.505,
-      "pct": 0.5803
+      "price": 87.78,
+      "change": 0.755,
+      "pct": 0.8676
     },
     "copper": {
-      "price": 6.5725,
-      "change": 0.0065,
-      "pct": 0.099
+      "price": 6.5985,
+      "change": 0.0325,
+      "pct": 0.495
     },
     "wti": {
-      "price": 101.57,
-      "change": 0.22,
-      "pct": 0.2171
+      "price": 101.9,
+      "change": 0.55,
+      "pct": 0.5427
     },
     "brent": {
-      "price": 106.17,
-      "change": 0.3,
-      "pct": 0.2834
+      "price": 106.64,
+      "change": 0.77,
+      "pct": 0.7273
     },
     "natgas": {
-      "price": 2.887,
-      "change": 0.022,
-      "pct": 0.7679
+      "price": 2.89,
+      "change": 0.025,
+      "pct": 0.8726
     }
   },
   "fear_greed": {
-    "score": 65
+    "score": 66
   },
   "weekend": {
     "nasdaq": {
-      "price": 29422.2,
-      "change": 13.9,
-      "pct": 0.05
+      "price": 29477.4,
+      "change": 69.1,
+      "pct": 0.23
     },
     "oil": {
-      "price": 9771.4,
-      "change": 42.1,
-      "pct": 0.43
+      "price": 9801.6,
+      "change": 72.3,
+      "pct": 0.74
     }
   }
 }
