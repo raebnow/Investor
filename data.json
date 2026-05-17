@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-17T12:44:44Z",
+  "updated": "2026-05-17T14:15:32Z",
   "quotes": {
     "dow": {
       "price": 49526.1719,
@@ -37,8 +37,8 @@
       "pct": -6.4979
     },
     "gold": {
-      "price": 4561.9,
-      "change": -57.8998,
+      "price": 4561.8999,
+      "change": -57.8999,
       "pct": -1.2533
     },
     "silver": {
@@ -54,7 +54,7 @@
     "wti": {
       "price": 101.02,
       "change": -1.35,
-      "pct": -1.3187
+      "pct": -1.3188
     },
     "brent": {
       "price": 109.26,
@@ -68,18 +68,18 @@
     }
   },
   "fear_greed": {
-    "score": 63
+    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Max retries exceeded with url: /api/?action=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='feargreedchart.com', port=443) at 0x7f4cbc616390>, 'Connection to feargreedchart.com timed out. (connect timeout=15)'))"
   },
   "weekend": {
     "nasdaq": {
-      "price": 29027.0,
-      "change": -9.8,
-      "pct": -0.03
+      "price": 29081.8,
+      "change": 45.0,
+      "pct": 0.15
     },
     "oil": {
-      "price": 10171.9,
-      "change": -3.2,
-      "pct": -0.03
+      "price": 10211.0,
+      "change": 35.9,
+      "pct": 0.35
     }
   }
 }
