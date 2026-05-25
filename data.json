@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-25T18:56:09Z",
+  "updated": "2026-05-25T20:23:37Z",
   "quotes": {
     "dow": {
       "price": 50579.6992,
@@ -68,18 +68,18 @@
     }
   },
   "fear_greed": {
-    "score": 67
+    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Read timed out. (read timeout=15)"
   },
   "weekend": {
     "nasdaq": {
-      "price": 29844.7,
-      "change": 416.2,
-      "pct": 1.41
+      "price": 29850.2,
+      "change": 421.7,
+      "pct": 1.43
     },
     "oil": {
       "price": 8945.2,
-      "change": -685.4,
-      "pct": -7.09
+      "change": 0.0,
+      "pct": 0.0
     }
   }
 }
