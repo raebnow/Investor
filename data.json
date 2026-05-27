@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-27T06:11:05Z",
+  "updated": "2026-05-27T10:20:36Z",
   "quotes": {
     "dow": {
       "price": 50461.6797,
@@ -22,49 +22,49 @@
       "pct": 1.7885
     },
     "vix": {
-      "price": 17.01,
-      "change": 0.42,
-      "pct": 2.5316
+      "price": 16.93,
+      "change": -0.08,
+      "pct": -0.4703
     },
     "kospi": {
-      "price": 8265.5596,
-      "change": 186.2798,
-      "pct": 2.3056
+      "price": 8228.7002,
+      "change": 181.1902,
+      "pct": 2.2515
     },
     "kospi200": {
-      "price": 1305.71,
-      "change": 38.1599,
-      "pct": 3.0105
+      "price": 1298.86,
+      "change": 38.33,
+      "pct": 3.0408
     },
     "gold": {
-      "price": 4494.2002,
-      "change": -12.0996,
-      "pct": -0.2685
+      "price": 4519.0,
+      "change": 22.7002,
+      "pct": 0.5049
     },
     "silver": {
-      "price": 75.99,
-      "change": -1.15,
-      "pct": -1.4908
+      "price": 75.77,
+      "change": -1.16,
+      "pct": -1.5079
     },
     "copper": {
-      "price": 6.4065,
-      "change": -0.049,
-      "pct": -0.759
+      "price": 6.407,
+      "change": -0.0295,
+      "pct": -0.4583
     },
     "wti": {
-      "price": 91.85,
-      "change": -0.13,
-      "pct": -0.1413
+      "price": 90.11,
+      "change": -2.02,
+      "pct": -2.1926
     },
     "brent": {
-      "price": 94.93,
-      "change": -0.04,
-      "pct": -0.0421
+      "price": 93.54,
+      "change": -1.57,
+      "pct": -1.6507
     },
     "natgas": {
-      "price": 2.998,
-      "change": 0.002,
-      "pct": 0.0668
+      "price": 3.0,
+      "change": 0.001,
+      "pct": 0.0333
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 30009.8,
-      "change": 59.2,
-      "pct": 0.2
+      "price": 30147.4,
+      "change": 196.8,
+      "pct": 0.66
     },
     "oil": {
-      "price": 9077.2,
-      "change": -181.9,
-      "pct": -1.96
+      "price": 8898.0,
+      "change": -361.1,
+      "pct": -3.89
     }
   }
 }
