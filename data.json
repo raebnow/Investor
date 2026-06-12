@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-12T05:10:12Z",
+  "updated": "2026-06-12T09:11:56Z",
   "quotes": {
     "dow": {
       "price": 50848.75,
@@ -22,64 +22,64 @@
       "pct": 3.0178
     },
     "vix": {
-      "price": 19.44,
-      "change": -2.78,
-      "pct": -12.5112
+      "price": 18.8,
+      "change": -0.65,
+      "pct": -3.3419
     },
     "kospi": {
-      "price": 8426.71,
-      "change": 683.46,
-      "pct": 8.8265
+      "price": 8123.6201,
+      "change": 359.6701,
+      "pct": 4.6326
     },
     "kospi200": {
-      "price": 1344.02,
-      "change": 115.8101,
-      "pct": 9.4292
+      "price": 1291.3199,
+      "change": 59.7799,
+      "pct": 4.8541
     },
     "gold": {
-      "price": 4212.8999,
-      "change": 5.8999,
-      "pct": 0.1402
+      "price": 4242.1001,
+      "change": 21.2002,
+      "pct": 0.5023
     },
     "silver": {
-      "price": 67.05,
-      "change": 0.03,
-      "pct": 0.0448
+      "price": 67.09,
+      "change": -0.19,
+      "pct": -0.2824
     },
     "copper": {
-      "price": 6.418,
-      "change": 0.028,
-      "pct": 0.4382
+      "price": 6.394,
+      "change": -0.0315,
+      "pct": -0.4902
     },
     "wti": {
-      "price": 86.06,
-      "change": -0.65,
-      "pct": -0.7496
+      "price": 83.83,
+      "change": -2.45,
+      "pct": -2.8396
     },
     "brent": {
-      "price": 88.55,
-      "change": -0.71,
-      "pct": -0.7954
+      "price": 86.49,
+      "change": -2.31,
+      "pct": -2.6014
     },
     "natgas": {
-      "price": 3.079,
-      "change": 0.005,
-      "pct": 0.1627
+      "price": 3.054,
+      "change": -0.017,
+      "pct": -0.5536
     }
   },
   "fear_greed": {
-    "score": 50
+    "score": 53
   },
   "weekend": {
     "nasdaq": {
-      "price": 29496.3,
-      "change": 114.8,
-      "pct": 0.39
+      "price": 29464.9,
+      "change": 83.4,
+      "pct": 0.28
     },
     "oil": {
-      "price": 8463.2,
-      "change": -187.8,
-      "pct": -2.16
+      "price": 8248.3,
+      "change": -402.7,
+      "pct": -4.64
     }
   }
 }
