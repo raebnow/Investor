@@ -1,25 +1,25 @@
 {
-  "updated": "2026-06-20T08:13:51Z",
+  "updated": "2026-06-20T10:41:31Z",
   "quotes": {
     "dow": {
-      "price": 51564.7,
-      "change": 72.15,
+      "price": 51564.6992,
+      "change": 72.1492,
       "pct": 0.1401
     },
     "sp500": {
-      "price": 7500.58,
-      "change": 80.48,
+      "price": 7500.5801,
+      "change": 80.4801,
       "pct": 1.0846
     },
     "nasdaq": {
-      "price": 30406.193,
-      "change": 735.246,
+      "price": 30406.1895,
+      "change": 735.2425,
       "pct": 2.478
     },
     "russell": {
-      "price": 2979.765,
-      "change": 61.783,
-      "pct": 2.1173
+      "price": 2979.77,
+      "change": 61.788,
+      "pct": 2.1175
     },
     "vix": {
       "price": 16.78,
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 30344.3,
-      "change": 70.7,
-      "pct": 0.23
+      "price": 30347.3,
+      "change": 73.7,
+      "pct": 0.24
     },
     "oil": {
-      "price": 7702.6,
-      "change": 61.3,
-      "pct": 0.8
+      "price": 7706.2,
+      "change": 64.9,
+      "pct": 0.85
     }
   }
 }
