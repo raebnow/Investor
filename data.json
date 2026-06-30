@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T06:39:57Z",
+  "updated": "2026-06-30T10:18:46Z",
   "quotes": {
     "dow": {
       "price": 52182.7383,
@@ -22,64 +22,64 @@
       "pct": 0.0111
     },
     "vix": {
-      "price": 17.65,
-      "change": -0.73,
-      "pct": -3.9717
+      "price": 17.61,
+      "change": -0.04,
+      "pct": -0.2266
     },
     "kospi": {
-      "price": 8526.1299,
-      "change": 131.4799,
-      "pct": 1.5662
+      "price": 8476.4805,
+      "change": 81.8305,
+      "pct": 0.9748
     },
     "kospi200": {
-      "price": 1380.03,
-      "change": 27.49,
-      "pct": 2.0325
+      "price": 1370.73,
+      "change": 18.19,
+      "pct": 1.3449
     },
     "gold": {
-      "price": 4026.1001,
-      "change": 43.8,
-      "pct": 1.0999
+      "price": 4036.0,
+      "change": 52.2,
+      "pct": 1.3103
     },
     "silver": {
-      "price": 59.285,
-      "change": 1.38,
-      "pct": 2.3832
+      "price": 59.22,
+      "change": 1.525,
+      "pct": 2.6432
     },
     "copper": {
-      "price": 6.2225,
-      "change": 0.0675,
-      "pct": 1.0967
+      "price": 6.238,
+      "change": 0.062,
+      "pct": 1.0039
     },
     "wti": {
-      "price": 69.83,
-      "change": -0.52,
-      "pct": -0.7392
+      "price": 70.97,
+      "change": 0.62,
+      "pct": 0.8813
     },
     "brent": {
-      "price": 73.13,
-      "change": -0.46,
-      "pct": -0.6251
+      "price": 74.2,
+      "change": 0.61,
+      "pct": 0.8289
     },
     "natgas": {
-      "price": 3.176,
-      "change": 0.002,
-      "pct": 0.063
+      "price": 3.219,
+      "change": 0.055,
+      "pct": 1.7383
     }
   },
   "fear_greed": {
-    "score": 53
+    "score": 54
   },
   "weekend": {
     "nasdaq": {
-      "price": 29814.4,
-      "change": 118.7,
-      "pct": 0.4
+      "price": 29809.9,
+      "change": 114.2,
+      "pct": 0.38
     },
     "oil": {
-      "price": 6961.2,
-      "change": -57.8,
-      "pct": -0.82
+      "price": 7069.1,
+      "change": 50.1,
+      "pct": 0.71
     }
   }
 }
