@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T10:32:57Z",
+  "updated": "2026-07-01T13:19:56Z",
   "quotes": {
     "dow": {
       "price": 52319.1992,
@@ -22,9 +22,9 @@
       "pct": 0.4635
     },
     "vix": {
-      "price": 16.85,
-      "change": 0.4,
-      "pct": 2.4316
+      "price": 16.89,
+      "change": 0.44,
+      "pct": 2.6748
     },
     "kospi": {
       "price": 8303.4102,
@@ -37,24 +37,24 @@
       "pct": -2.5804
     },
     "gold": {
-      "price": 3996.2,
-      "change": 3.3,
-      "pct": 0.0826
+      "price": 4030.7,
+      "change": 37.8,
+      "pct": 0.9467
     },
     "silver": {
-      "price": 58.365,
-      "change": 0.115,
-      "pct": 0.1974
+      "price": 58.875,
+      "change": 0.625,
+      "pct": 1.073
     },
     "copper": {
-      "price": 6.0985,
-      "change": -0.053,
-      "pct": -0.8616
+      "price": 6.141,
+      "change": -0.0105,
+      "pct": -0.1707
     },
     "wti": {
-      "price": 68.69,
-      "change": -1.12,
-      "pct": -1.6043
+      "price": 69.09,
+      "change": -0.72,
+      "pct": -1.0314
     },
     "brent": {
       "price": 72.18,
@@ -62,9 +62,9 @@
       "pct": -1.4473
     },
     "natgas": {
-      "price": 3.239,
-      "change": -0.018,
-      "pct": -0.5527
+      "price": 3.241,
+      "change": -0.016,
+      "pct": -0.4913
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 30107.9,
-      "change": -102.2,
-      "pct": -0.34
+      "price": 29965.4,
+      "change": -244.7,
+      "pct": -0.81
     },
     "oil": {
-      "price": 6856.6,
-      "change": -111.7,
-      "pct": -1.6
+      "price": 6887.3,
+      "change": -81.0,
+      "pct": -1.16
     }
   }
 }
