@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T05:06:21Z",
+  "updated": "2026-07-07T08:37:15Z",
   "quotes": {
     "dow": {
       "price": 53055.9102,
@@ -22,64 +22,64 @@
       "pct": 0.4482
     },
     "vix": {
-      "price": 15.57,
-      "change": -0.24,
-      "pct": -1.518
+      "price": 15.84,
+      "change": 0.28,
+      "pct": 1.7995
     },
     "kospi": {
-      "price": 7418.8599,
-      "change": -630.3701,
-      "pct": -7.8314
+      "price": 7656.3101,
+      "change": -395.0199,
+      "pct": -4.9063
     },
     "kospi200": {
-      "price": 1185.65,
-      "change": -106.76,
-      "pct": -8.2605
+      "price": 1225.5699,
+      "change": -67.5601,
+      "pct": -5.2245
     },
     "gold": {
-      "price": 4138.7002,
-      "change": -12.5996,
-      "pct": -0.3035
+      "price": 4148.8999,
+      "change": 7.1001,
+      "pct": 0.1714
     },
     "silver": {
-      "price": 61.33,
-      "change": -0.55,
-      "pct": -0.8888
+      "price": 61.635,
+      "change": 0.135,
+      "pct": 0.2195
     },
     "copper": {
-      "price": 6.2005,
-      "change": -0.0625,
-      "pct": -0.9979
+      "price": 6.229,
+      "change": 0.021,
+      "pct": 0.3383
     },
     "wti": {
-      "price": 68.99,
-      "change": -0.17,
-      "pct": -0.2458
+      "price": 69.17,
+      "change": 0.24,
+      "pct": 0.3482
     },
     "brent": {
-      "price": 72.49,
-      "change": -0.06,
-      "pct": -0.0827
+      "price": 72.69,
+      "change": 0.27,
+      "pct": 0.3728
     },
     "natgas": {
-      "price": 3.224,
-      "change": -0.026,
-      "pct": -0.8
+      "price": 3.292,
+      "change": 0.062,
+      "pct": 1.9195
     }
   },
   "fear_greed": {
-    "score": 67
+    "score": 65
   },
   "weekend": {
     "nasdaq": {
-      "price": 29365.4,
-      "change": -323.1,
-      "pct": -1.09
+      "price": 29424.8,
+      "change": -263.7,
+      "pct": -0.89
     },
     "oil": {
-      "price": 6879.4,
-      "change": 46.7,
-      "pct": 0.68
+      "price": 6902.7,
+      "change": 70.0,
+      "pct": 1.02
     }
   }
 }
