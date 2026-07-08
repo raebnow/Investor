@@ -1,71 +1,85 @@
 {
-  "updated": "2026-07-08T07:10:14Z",
+  "updated": "2026-07-08T09:36:34Z",
   "quotes": {
     "dow": {
-      "error": "Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'fc.yahoo.com'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "price": 52925.1484,
+      "change": -130.7616,
+      "pct": -0.2465
     },
     "sp500": {
-      "error": "Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'fc.yahoo.com'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details."
+      "price": 7503.8501,
+      "change": -33.5799,
+      "pct": -0.4455
     },
     "nasdaq": {
-      "error": "'exchangeTimezoneName'"
+      "price": 29173.0195,
+      "change": -524.8535,
+      "pct": -1.7673
     },
     "russell": {
-      "error": "'exchangeTimezoneName'"
+      "price": 2982.49,
+      "change": -27.0513,
+      "pct": -0.8989
     },
     "vix": {
-      "error": "'exchangeTimezoneName'"
+      "price": 18.8,
+      "change": 2.67,
+      "pct": 16.553
     },
     "kospi": {
-      "error": "'exchangeTimezoneName'"
+      "price": 7246.79,
+      "change": -409.52,
+      "pct": -5.3488
     },
     "kospi200": {
-      "error": "'exchangeTimezoneName'"
+      "price": 1158.37,
+      "change": -67.2,
+      "pct": -5.4832
     },
     "gold": {
-      "price": 4135.2002,
-      "change": -3.2998,
-      "pct": -0.0797
+      "price": 4068.3,
+      "change": -65.4001,
+      "pct": -1.5821
     },
     "silver": {
-      "price": 61.12,
-      "change": 0.15,
-      "pct": 0.246
+      "price": 58.965,
+      "change": -1.805,
+      "pct": -2.9702
     },
     "copper": {
-      "price": 6.185,
-      "change": -0.0295,
-      "pct": -0.4747
+      "price": 6.089,
+      "change": -0.1195,
+      "pct": -1.9248
     },
     "wti": {
-      "price": 72.55,
-      "change": 0.26,
-      "pct": 0.3597
+      "price": 75.13,
+      "change": 2.87,
+      "pct": 3.9718
     },
     "brent": {
-      "price": 76.45,
-      "change": 0.39,
-      "pct": 0.5128
+      "price": 79.14,
+      "change": 3.1,
+      "pct": 4.0768
     },
     "natgas": {
-      "price": 3.291,
-      "change": 0.013,
-      "pct": 0.3966
+      "price": 3.325,
+      "change": 0.047,
+      "pct": 1.4338
     }
   },
   "fear_greed": {
-    "score": 64
+    "score": 50
   },
   "weekend": {
     "nasdaq": {
-      "price": 29040.7,
-      "change": -126.8,
-      "pct": -0.43
+      "price": 28739.2,
+      "change": -428.3,
+      "pct": -1.47
     },
     "oil": {
-      "price": 7234.0,
-      "change": 118.7,
-      "pct": 1.66
+      "price": 7400.5,
+      "change": 285.2,
+      "pct": 4.0
     }
   }
 }
