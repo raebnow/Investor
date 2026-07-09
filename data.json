@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T05:12:09Z",
+  "updated": "2026-07-09T08:45:21Z",
   "quotes": {
     "dow": {
       "price": 52348.3906,
@@ -22,64 +22,64 @@
       "pct": -0.875
     },
     "vix": {
-      "price": 16.9,
-      "change": 0.77,
-      "pct": 4.7737
+      "price": 16.62,
+      "change": -0.26,
+      "pct": -1.5403
     },
     "kospi": {
-      "price": 7234.73,
-      "change": -68.2998,
-      "pct": -0.9352
+      "price": 7291.9102,
+      "change": 45.1202,
+      "pct": 0.6226
     },
     "kospi200": {
-      "price": 1159.67,
-      "change": -9.8999,
-      "pct": -0.8465
+      "price": 1169.73,
+      "change": 11.36,
+      "pct": 0.9807
     },
     "gold": {
-      "price": 4078.8999,
-      "change": 6.7998,
-      "pct": 0.167
+      "price": 4121.1001,
+      "change": 49.0,
+      "pct": 1.2033
     },
     "silver": {
-      "price": 58.465,
-      "change": 0.225,
-      "pct": 0.3863
+      "price": 59.715,
+      "change": 1.475,
+      "pct": 2.5326
     },
     "copper": {
-      "price": 6.1275,
-      "change": 0.01,
-      "pct": 0.1635
+      "price": 6.21,
+      "change": 0.0925,
+      "pct": 1.5121
     },
     "wti": {
-      "price": 74.34,
-      "change": 0.06,
-      "pct": 0.0808
+      "price": 72.74,
+      "change": -1.54,
+      "pct": -2.0732
     },
     "brent": {
-      "price": 78.92,
-      "change": 0.05,
-      "pct": 0.0634
+      "price": 77.17,
+      "change": -1.7,
+      "pct": -2.1555
     },
     "natgas": {
-      "price": 3.203,
-      "change": -0.01,
-      "pct": -0.3112
+      "price": 3.217,
+      "change": 0.004,
+      "pct": 0.1245
     }
   },
   "fear_greed": {
-    "score": 61
+    "score": 62
   },
   "weekend": {
     "nasdaq": {
-      "price": 29355.3,
-      "change": 200.9,
-      "pct": 0.69
+      "price": 29430.6,
+      "change": 276.2,
+      "pct": 0.95
     },
     "oil": {
-      "price": 7387.1,
-      "change": 59.4,
-      "pct": 0.81
+      "price": 7250.4,
+      "change": -77.3,
+      "pct": -1.05
     }
   }
 }
