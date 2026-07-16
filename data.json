@@ -1,25 +1,25 @@
 {
-  "updated": "2026-07-16T12:04:51Z",
+  "updated": "2026-07-16T14:17:06Z",
   "quotes": {
     "dow": {
-      "price": 52658.6406,
-      "change": 150.3706,
-      "pct": 0.2864
+      "price": 52650.5391,
+      "change": -8.1009,
+      "pct": -0.0154
     },
     "sp500": {
-      "price": 7572.3999,
-      "change": 28.8099,
-      "pct": 0.3819
+      "price": 7562.3799,
+      "change": -10.0201,
+      "pct": -0.1323
     },
     "nasdaq": {
-      "price": 29502.5996,
-      "change": -83.6874,
-      "pct": -0.2829
+      "price": 29291.6621,
+      "change": -210.9339,
+      "pct": -0.715
     },
     "russell": {
-      "price": 2976.26,
-      "change": 11.496,
-      "pct": 0.3878
+      "price": 2987.1162,
+      "change": 11.5859,
+      "pct": 0.3894
     },
     "vix": {
       "price": 16.13,
@@ -37,34 +37,34 @@
       "pct": -7.1776
     },
     "gold": {
-      "price": 4044.8,
-      "change": 4.1001,
-      "pct": 0.1015
+      "price": 3998.3,
+      "change": -42.3999,
+      "pct": -1.0493
     },
     "silver": {
-      "price": 57.01,
-      "change": -0.51,
-      "pct": -0.8867
+      "price": 56.14,
+      "change": -1.38,
+      "pct": -2.3992
     },
     "copper": {
-      "price": 6.38,
-      "change": -0.031,
-      "pct": -0.4835
+      "price": 6.3545,
+      "change": -0.0565,
+      "pct": -0.8813
     },
     "wti": {
-      "price": 79.84,
-      "change": 0.28,
-      "pct": 0.3519
+      "price": 79.72,
+      "change": 0.16,
+      "pct": 0.2011
     },
     "brent": {
-      "price": 84.98,
-      "change": 0.23,
-      "pct": 0.2714
+      "price": 85.11,
+      "change": 0.36,
+      "pct": 0.4248
     },
     "natgas": {
-      "price": 2.914,
-      "change": 0.01,
-      "pct": 0.3444
+      "price": 2.932,
+      "change": 0.028,
+      "pct": 0.9642
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 29232.9,
-      "change": -257.4,
-      "pct": -0.87
+      "price": 29244.5,
+      "change": -245.8,
+      "pct": -0.83
     },
     "oil": {
-      "price": 7899.8,
-      "change": -13.9,
-      "pct": -0.18
+      "price": 7940.2,
+      "change": 26.5,
+      "pct": 0.33
     }
   }
 }
