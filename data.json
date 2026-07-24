@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T22:44:39Z",
+  "updated": "2026-07-24T23:46:10Z",
   "quotes": {
     "dow": {
       "price": 51947.25,
@@ -68,7 +68,7 @@
     }
   },
   "fear_greed": {
-    "score": 56
+    "error": "415 Client Error: Unsupported Media Type for url: https://feargreedchart.com/api/?action=all"
   },
   "weekend": {
     "nasdaq": {
