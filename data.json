@@ -1,30 +1,30 @@
 {
-  "updated": "2026-07-24T12:50:59Z",
+  "updated": "2026-07-24T14:30:51Z",
   "quotes": {
     "dow": {
-      "price": 51711.6484,
-      "change": -506.9316,
-      "pct": -0.9708
+      "price": 51850.9414,
+      "change": 148.7109,
+      "pct": 0.2876
     },
     "sp500": {
-      "price": 7408.2998,
-      "change": -90.6602,
-      "pct": -1.209
+      "price": 7407.3198,
+      "change": -0.8604,
+      "pct": -0.0116
     },
     "nasdaq": {
-      "price": 28454.8105,
-      "change": -543.2895,
-      "pct": -1.8735
+      "price": 28204.3535,
+      "change": -250.4555,
+      "pct": -0.8802
     },
     "russell": {
-      "price": 2940.1599,
-      "change": -19.7783,
-      "pct": -0.6682
+      "price": 2945.8464,
+      "change": 5.7766,
+      "pct": 0.1965
     },
     "vix": {
-      "price": 18.69,
-      "change": -0.01,
-      "pct": -0.0535
+      "price": 18.63,
+      "change": -0.07,
+      "pct": -0.3743
     },
     "kospi": {
       "price": 6690.6201,
@@ -37,49 +37,49 @@
       "pct": -6.2815
     },
     "gold": {
-      "price": 4058.7,
-      "change": 27.5999,
-      "pct": 0.6847
+      "price": 4060.6001,
+      "change": 29.5,
+      "pct": 0.7318
     },
     "silver": {
-      "price": 58.765,
-      "change": 1.215,
-      "pct": 2.1112
+      "price": 58.46,
+      "change": 0.91,
+      "pct": 1.5812
     },
     "copper": {
-      "price": 6.3485,
-      "change": 0.0295,
-      "pct": 0.4668
+      "price": 6.333,
+      "change": 0.014,
+      "pct": 0.2216
     },
     "wti": {
-      "price": 88.98,
-      "change": -2.97,
-      "pct": -3.23
+      "price": 90.08,
+      "change": -1.87,
+      "pct": -2.0337
     },
     "brent": {
-      "price": 91.45,
-      "change": -9.27,
-      "pct": -9.2037
+      "price": 97.71,
+      "change": -3.01,
+      "pct": -2.9885
     },
     "natgas": {
-      "price": 2.973,
-      "change": 0.043,
-      "pct": 1.4676
+      "price": 2.934,
+      "change": 0.004,
+      "pct": 0.1365
     }
   },
   "fear_greed": {
-    "error": "415 Client Error: Unsupported Media Type for url: https://feargreedchart.com/api/?action=all"
+    "score": 57
   },
   "weekend": {
     "nasdaq": {
-      "price": 28458.0,
-      "change": -97.8,
-      "pct": -0.34
+      "price": 28212.6,
+      "change": -343.2,
+      "pct": -1.2
     },
     "oil": {
-      "price": 8810.4,
-      "change": -309.6,
-      "pct": -3.39
+      "price": 8849.5,
+      "change": -270.5,
+      "pct": -2.96
     }
   }
 }
