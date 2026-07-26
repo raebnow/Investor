@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T22:40:39Z",
+  "updated": "2026-07-26T23:41:41Z",
   "quotes": {
     "dow": {
       "price": 51947.25,
@@ -37,49 +37,49 @@
       "pct": -6.2815
     },
     "gold": {
-      "price": 4089.1001,
-      "change": 18.3,
-      "pct": 0.4495
+      "price": 4087.6001,
+      "change": 16.8,
+      "pct": 0.4127
     },
     "silver": {
-      "price": 59.945,
-      "change": 1.039,
-      "pct": 1.7638
+      "price": 59.68,
+      "change": 0.774,
+      "pct": 1.314
     },
     "copper": {
-      "price": 6.366,
-      "change": 0.0085,
-      "pct": 0.1337
+      "price": 6.3575,
+      "change": 0.0,
+      "pct": 0.0
     },
     "wti": {
-      "price": 84.33,
-      "change": -4.98,
-      "pct": -5.5761
+      "price": 84.96,
+      "change": -4.35,
+      "pct": -4.8707
     },
     "brent": {
-      "price": 91.14,
-      "change": -5.64,
-      "pct": -5.8276
+      "price": 92.13,
+      "change": -4.65,
+      "pct": -4.8047
     },
     "natgas": {
-      "price": 2.838,
-      "change": -0.05,
-      "pct": -1.7313
+      "price": 2.847,
+      "change": -0.041,
+      "pct": -1.4197
     }
   },
   "fear_greed": {
-    "score": 55
+    "error": "415 Client Error: Unsupported Media Type for url: https://feargreedchart.com/api/?action=all"
   },
   "weekend": {
     "nasdaq": {
-      "price": 28457.5,
-      "change": 340.6,
-      "pct": 1.21
+      "price": 28449.1,
+      "change": 332.2,
+      "pct": 1.18
     },
     "oil": {
-      "price": 8309.1,
-      "change": -648.3,
-      "pct": -7.22
+      "price": 8343.8,
+      "change": -613.6,
+      "pct": -6.83
     }
   }
 }
