@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T19:57:26Z",
+  "updated": "2026-08-01T20:59:30Z",
   "quotes": {
     "dow": {
       "price": 52485.0312,
@@ -68,18 +68,18 @@
     }
   },
   "fear_greed": {
-    "error": "415 Client Error: Unsupported Media Type for url: https://feargreedchart.com/api/?action=all"
+    "score": 65
   },
   "weekend": {
     "nasdaq": {
-      "price": 28049.9,
-      "change": -93.8,
-      "pct": -0.33
+      "price": 28044.5,
+      "change": -99.2,
+      "pct": -0.35
     },
     "oil": {
-      "price": 8651.1,
-      "change": 126.1,
-      "pct": 1.47
+      "price": 8602.8,
+      "change": 77.8,
+      "pct": 0.91
     }
   }
 }
