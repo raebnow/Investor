@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-04T10:02:13Z",
+  "updated": "2026-08-04T12:10:03Z",
   "quotes": {
     "dow": {
-      "price": 53178.41,
-      "change": 693.38,
+      "price": 53178.4102,
+      "change": 693.3802,
       "pct": 1.3211
     },
     "sp500": {
@@ -12,19 +12,19 @@
       "pct": 1.4791
     },
     "nasdaq": {
-      "price": 28776.803,
-      "change": 502.608,
+      "price": 28776.8008,
+      "change": 502.6058,
       "pct": 1.7776
     },
     "russell": {
-      "price": 2981.908,
-      "change": 50.569,
-      "pct": 1.7251
+      "price": 2981.9099,
+      "change": 50.5709,
+      "pct": 1.7252
     },
     "vix": {
-      "price": 15.72,
-      "change": -0.14,
-      "pct": -0.8827
+      "price": 15.67,
+      "change": -0.19,
+      "pct": -1.198
     },
     "kospi": {
       "price": 6358.9502,
@@ -37,49 +37,49 @@
       "pct": 1.3489
     },
     "gold": {
-      "price": 4104.7002,
-      "change": -3.5,
-      "pct": -0.0852
+      "price": 4132.1001,
+      "change": 23.8999,
+      "pct": 0.5818
     },
     "silver": {
-      "price": 58.93,
-      "change": 0.02,
-      "pct": 0.034
+      "price": 59.68,
+      "change": 0.77,
+      "pct": 1.3071
     },
     "copper": {
-      "price": 6.6215,
-      "change": 0.0195,
-      "pct": 0.2954
+      "price": 6.6605,
+      "change": 0.0585,
+      "pct": 0.8861
     },
     "wti": {
-      "price": 82.23,
-      "change": 1.04,
-      "pct": 1.2809
+      "price": 76.68,
+      "change": -4.51,
+      "pct": -5.5549
     },
     "brent": {
-      "price": 86.17,
-      "change": 1.13,
-      "pct": 1.3288
+      "price": 80.54,
+      "change": -4.5,
+      "pct": -5.2916
     },
     "natgas": {
-      "price": 2.755,
-      "change": -0.013,
-      "pct": -0.4696
+      "price": 2.704,
+      "change": -0.064,
+      "pct": -2.3121
     }
   },
   "fear_greed": {
-    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Max retries exceeded with url: /api/?action=all (Caused by NewConnectionError(\"HTTPSConnection(host='feargreedchart.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    "score": 68
   },
   "weekend": {
     "nasdaq": {
-      "price": 28924.4,
-      "change": 137.6,
-      "pct": 0.48
+      "price": 29067.6,
+      "change": 280.8,
+      "pct": 0.97
     },
     "oil": {
-      "price": 8064.1,
-      "change": 198.0,
-      "pct": 2.51
+      "price": 7612.3,
+      "change": -253.8,
+      "pct": -3.22
     }
   }
 }
