@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T22:02:26Z",
+  "updated": "2026-08-13T22:55:49Z",
   "quotes": {
     "dow": {
       "price": 53839.9883,
@@ -37,49 +37,49 @@
       "pct": 4.0615
     },
     "gold": {
-      "price": 4407.1001,
-      "change": -51.1997,
-      "pct": -1.1484
+      "price": 4415.7998,
+      "change": -42.5,
+      "pct": -0.9533
     },
     "silver": {
-      "price": 64.585,
-      "change": -0.89,
-      "pct": -1.3593
+      "price": 64.685,
+      "change": -0.79,
+      "pct": -1.2066
     },
     "copper": {
-      "price": 6.5895,
-      "change": 0.0355,
-      "pct": 0.5417
+      "price": 6.5875,
+      "change": 0.0335,
+      "pct": 0.5111
     },
     "wti": {
-      "price": 81.21,
-      "change": -1.41,
-      "pct": -1.7066
+      "price": 81.05,
+      "change": -1.57,
+      "pct": -1.9003
     },
     "brent": {
-      "price": 86.96,
-      "change": -1.5,
-      "pct": -1.6957
+      "price": 86.91,
+      "change": -1.55,
+      "pct": -1.7522
     },
     "natgas": {
-      "price": 2.732,
-      "change": -0.057,
-      "pct": -2.0437
+      "price": 2.731,
+      "change": -0.058,
+      "pct": -2.0796
     }
   },
   "fear_greed": {
-    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Max retries exceeded with url: /api/?action=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='feargreedchart.com', port=443) at 0x7f1522ee4150>, 'Connection to feargreedchart.com timed out. (connect timeout=15)'))"
+    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Max retries exceeded with url: /api/?action=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='feargreedchart.com', port=443) at 0x7f03afc3ce50>, 'Connection to feargreedchart.com timed out. (connect timeout=15)'))"
   },
   "weekend": {
     "nasdaq": {
-      "price": 30079.1,
-      "change": -8.7,
-      "pct": -0.03
+      "price": 30082.1,
+      "change": -5.7,
+      "pct": -0.02
     },
     "oil": {
-      "price": 8026.4,
-      "change": 5.3,
-      "pct": 0.07
+      "price": 8015.6,
+      "change": -5.5,
+      "pct": -0.07
     }
   }
 }
