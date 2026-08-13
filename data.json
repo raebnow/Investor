@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T06:46:08Z",
+  "updated": "2026-08-13T08:06:56Z",
   "quotes": {
     "dow": {
       "price": 53770.2695,
@@ -22,64 +22,64 @@
       "pct": 0.6067
     },
     "vix": {
-      "price": 14.55,
-      "change": -0.73,
-      "pct": -4.7775
+      "price": 14.67,
+      "change": 0.12,
+      "pct": 0.8247
     },
     "kospi": {
-      "price": 6772.2202,
-      "change": 193.1802,
-      "pct": 2.9363
+      "price": 6813.3398,
+      "change": 234.2998,
+      "pct": 3.5613
     },
     "kospi200": {
-      "price": 1064.1801,
-      "change": 34.7501,
-      "pct": 3.3757
+      "price": 1071.24,
+      "change": 41.81,
+      "pct": 4.0615
     },
     "gold": {
-      "price": 4429.7002,
-      "change": -35.8999,
-      "pct": -0.8039
+      "price": 4426.7002,
+      "change": -31.5996,
+      "pct": -0.7088
     },
     "silver": {
-      "price": 64.975,
-      "change": -0.725,
-      "pct": -1.1035
+      "price": 64.7,
+      "change": -0.775,
+      "pct": -1.1837
     },
     "copper": {
-      "price": 6.55,
-      "change": -0.0095,
-      "pct": -0.1448
+      "price": 6.5095,
+      "change": -0.0445,
+      "pct": -0.679
     },
     "wti": {
-      "price": 83.26,
-      "change": 1.02,
-      "pct": 1.2403
+      "price": 82.06,
+      "change": -0.56,
+      "pct": -0.6778
     },
     "brent": {
-      "price": 88.99,
-      "change": 1.03,
-      "pct": 1.171
+      "price": 87.78,
+      "change": -0.68,
+      "pct": -0.7687
     },
     "natgas": {
-      "price": 2.786,
-      "change": -0.001,
-      "pct": -0.0359
+      "price": 2.793,
+      "change": 0.004,
+      "pct": 0.1434
     }
   },
   "fear_greed": {
-    "score": 73
+    "score": 72
   },
   "weekend": {
     "nasdaq": {
-      "price": 29739.3,
-      "change": 61.6,
+      "price": 29741.5,
+      "change": 63.8,
       "pct": 0.21
     },
     "oil": {
-      "price": 8197.7,
-      "change": -9.4,
-      "pct": -0.11
+      "price": 8083.9,
+      "change": -123.2,
+      "pct": -1.5
     }
   }
 }
