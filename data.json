@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T05:42:37Z",
+  "updated": "2026-08-15T06:00:57Z",
   "quotes": {
     "dow": {
       "price": 53732.4102,
@@ -32,8 +32,8 @@
       "pct": 2.4158
     },
     "kospi200": {
-      "price": 1098.1801,
-      "change": 26.9401,
+      "price": 1098.18,
+      "change": 26.94,
       "pct": 2.5148
     },
     "gold": {
@@ -68,7 +68,7 @@
     }
   },
   "fear_greed": {
-    "score": 74
+    "score": 75
   },
   "weekend": {
     "nasdaq": {
@@ -77,9 +77,9 @@
       "pct": -0.06
     },
     "oil": {
-      "price": 8149.9,
-      "change": 9.9,
-      "pct": 0.12
+      "price": 8150.5,
+      "change": 10.5,
+      "pct": 0.13
     }
   }
 }
