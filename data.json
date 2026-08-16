@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T20:53:41Z",
+  "updated": "2026-08-16T21:14:14Z",
   "quotes": {
     "dow": {
       "price": 53732.4102,
@@ -68,7 +68,7 @@
     }
   },
   "fear_greed": {
-    "score": 74
+    "score": 75
   },
   "weekend": {
     "nasdaq": {
