@@ -1,14 +1,14 @@
 {
-  "updated": "2026-08-19T03:31:46Z",
+  "updated": "2026-08-19T04:18:21Z",
   "quotes": {
     "dow": {
-      "price": 53343.3984,
-      "change": -116.3816,
+      "price": 53343.4,
+      "change": -116.38,
       "pct": -0.2177
     },
     "sp500": {
-      "price": 7691.7598,
-      "change": -53.3002,
+      "price": 7691.76,
+      "change": -53.3,
       "pct": -0.6882
     },
     "nasdaq": {
@@ -27,59 +27,59 @@
       "pct": 4.2791
     },
     "kospi": {
-      "price": 6487.29,
-      "change": -342.7002,
-      "pct": -5.0176
+      "price": 6488.4702,
+      "change": -341.52,
+      "pct": -5.0003
     },
     "kospi200": {
-      "price": 1015.94,
-      "change": -59.3799,
-      "pct": -5.5221
+      "price": 1016.05,
+      "change": -59.27,
+      "pct": -5.5118
     },
     "gold": {
-      "price": 4406.8999,
-      "change": -41.2002,
-      "pct": -0.9262
+      "price": 4407.6001,
+      "change": 0.1001,
+      "pct": 0.0023
     },
     "silver": {
-      "price": 62.995,
-      "change": -2.31,
-      "pct": -3.5373
+      "price": 63.085,
+      "change": 0.025,
+      "pct": 0.0396
     },
     "copper": {
-      "price": 6.462,
-      "change": -0.1005,
-      "pct": -1.5314
+      "price": 6.4635,
+      "change": 0.003,
+      "pct": 0.0464
     },
     "wti": {
-      "price": 84.78,
-      "change": -0.47,
-      "pct": -0.5513
+      "price": 84.74,
+      "change": -0.22,
+      "pct": -0.2589
     },
     "brent": {
-      "price": 91.7,
-      "change": 0.27,
-      "pct": 0.2953
+      "price": 91.66,
+      "change": -0.27,
+      "pct": -0.2937
     },
     "natgas": {
-      "price": 2.779,
-      "change": 0.077,
-      "pct": 2.8497
+      "price": 2.778,
+      "change": -0.01,
+      "pct": -0.3587
     }
   },
   "fear_greed": {
-    "score": 67
+    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Max retries exceeded with url: /api/?action=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='feargreedchart.com', port=443) at 0x7f90c92f2990>, 'Connection to feargreedchart.com timed out. (connect timeout=15)'))"
   },
   "weekend": {
     "nasdaq": {
-      "price": 29419.8,
-      "change": -25.2,
-      "pct": -0.09
+      "price": 29402.2,
+      "change": -42.8,
+      "pct": -0.15
     },
     "oil": {
-      "price": 8453.2,
-      "change": 62.5,
-      "pct": 0.74
+      "price": 8450.7,
+      "change": 60.0,
+      "pct": 0.71
     }
   }
 }
