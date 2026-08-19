@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T05:30:50Z",
+  "updated": "2026-08-19T05:59:10Z",
   "quotes": {
     "dow": {
       "price": 53343.3984,
@@ -27,59 +27,59 @@
       "pct": 4.2791
     },
     "kospi": {
-      "price": 6517.9399,
-      "change": -312.0503,
-      "pct": -4.5688
+      "price": 6488.1899,
+      "change": -341.8003,
+      "pct": -5.0044
     },
     "kospi200": {
-      "price": 1020.34,
-      "change": -54.9799,
-      "pct": -5.1129
+      "price": 1015.63,
+      "change": -59.6899,
+      "pct": -5.5509
     },
     "gold": {
-      "price": 4392.2002,
-      "change": -14.5996,
-      "pct": -0.3313
+      "price": 4391.3999,
+      "change": -15.3999,
+      "pct": -0.3495
     },
     "silver": {
-      "price": 62.705,
-      "change": -0.305,
-      "pct": -0.484
+      "price": 62.775,
+      "change": -0.235,
+      "pct": -0.373
     },
     "copper": {
-      "price": 6.4525,
-      "change": -0.011,
-      "pct": -0.1702
+      "price": 6.461,
+      "change": -0.0025,
+      "pct": -0.0387
     },
     "wti": {
-      "price": 84.61,
-      "change": -0.14,
-      "pct": -0.1652
+      "price": 84.72,
+      "change": -0.03,
+      "pct": -0.0354
     },
     "brent": {
-      "price": 91.56,
-      "change": -0.11,
-      "pct": -0.12
+      "price": 91.63,
+      "change": -0.04,
+      "pct": -0.0436
     },
     "natgas": {
-      "price": 2.785,
-      "change": 0.004,
-      "pct": 0.1438
+      "price": 2.786,
+      "change": 0.005,
+      "pct": 0.1798
     }
   },
   "fear_greed": {
-    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Max retries exceeded with url: /api/?action=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='feargreedchart.com', port=443) at 0x7f16dabefd10>, 'Connection to feargreedchart.com timed out. (connect timeout=15)'))"
+    "score": 65
   },
   "weekend": {
     "nasdaq": {
-      "price": 29393.9,
-      "change": -51.1,
-      "pct": -0.17
+      "price": 29354.3,
+      "change": -90.7,
+      "pct": -0.31
     },
     "oil": {
-      "price": 8439.2,
-      "change": 48.5,
-      "pct": 0.58
+      "price": 8450.2,
+      "change": 59.5,
+      "pct": 0.71
     }
   }
 }
