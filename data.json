@@ -1,15 +1,15 @@
 {
-  "updated": "2026-08-20T20:02:29Z",
+  "updated": "2026-08-20T20:39:12Z",
   "quotes": {
     "dow": {
-      "price": 52762.3008,
-      "change": -700.7492,
-      "pct": -1.3107
+      "price": 52759.2109,
+      "change": -703.8391,
+      "pct": -1.3165
     },
     "sp500": {
-      "price": 7641.6401,
-      "change": -66.3399,
-      "pct": -0.8607
+      "price": 7641.1602,
+      "change": -66.8198,
+      "pct": -0.8669
     },
     "nasdaq": {
       "price": 29213.1641,
@@ -17,14 +17,14 @@
       "pct": -0.7234
     },
     "russell": {
-      "price": 2991.5466,
-      "change": -41.2983,
-      "pct": -1.3617
+      "price": 2992.4336,
+      "change": -40.5084,
+      "pct": -1.3356
     },
     "vix": {
-      "price": 16.08,
-      "change": 1.19,
-      "pct": 7.9919
+      "price": 16.01,
+      "change": 1.12,
+      "pct": 7.5218
     },
     "kospi": {
       "price": 6852.58,
@@ -37,49 +37,49 @@
       "pct": 6.7519
     },
     "gold": {
-      "price": 4584.6001,
-      "change": 28.8999,
-      "pct": 0.6344
+      "price": 4578.1001,
+      "change": 22.3999,
+      "pct": 0.4917
     },
     "silver": {
-      "price": 68.32,
-      "change": 1.04,
-      "pct": 1.5458
+      "price": 68.19,
+      "change": 0.91,
+      "pct": 1.3526
     },
     "copper": {
-      "price": 6.4855,
-      "change": -0.003,
-      "pct": -0.0462
+      "price": 6.4845,
+      "change": -0.004,
+      "pct": -0.0617
     },
     "wti": {
-      "price": 86.66,
-      "change": 2.17,
-      "pct": 2.5684
+      "price": 86.61,
+      "change": 2.12,
+      "pct": 2.5092
     },
     "brent": {
-      "price": 93.55,
-      "change": 1.75,
-      "pct": 1.9063
+      "price": 93.54,
+      "change": 1.74,
+      "pct": 1.8954
     },
     "natgas": {
-      "price": 2.759,
-      "change": -0.03,
-      "pct": -1.0757
+      "price": 2.766,
+      "change": -0.023,
+      "pct": -0.8247
     }
   },
   "fear_greed": {
-    "error": "HTTPSConnectionPool(host='feargreedchart.com', port=443): Max retries exceeded with url: /api/?action=all (Caused by ConnectTimeoutError(<HTTPSConnection(host='feargreedchart.com', port=443) at 0x7f3ed1e7d050>, 'Connection to feargreedchart.com timed out. (connect timeout=15)'))"
+    "score": 63
   },
   "weekend": {
     "nasdaq": {
-      "price": 29186.2,
-      "change": -259.6,
-      "pct": -0.88
+      "price": 29190.4,
+      "change": -255.4,
+      "pct": -0.87
     },
     "oil": {
-      "price": 8621.0,
-      "change": -27.4,
-      "pct": -0.32
+      "price": 8614.8,
+      "change": -33.6,
+      "pct": -0.39
     }
   }
 }
