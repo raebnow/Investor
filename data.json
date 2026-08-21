@@ -1,10 +1,8 @@
 {
-  "updated": "2026-08-21T22:34:36Z",
+  "updated": "2026-08-21T22:56:25Z",
   "quotes": {
     "dow": {
-      "price": 53277.0117,
-      "change": 517.8017,
-      "pct": 0.9814
+      "error": "Too Many Requests. Rate limited. Try after a while."
     },
     "sp500": {
       "price": 7674.3701,
@@ -72,9 +70,9 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 29311.9,
-      "change": 37.4,
-      "pct": 0.13
+      "price": 29321.5,
+      "change": 47.0,
+      "pct": 0.16
     },
     "oil": {
       "price": 8619.3,
