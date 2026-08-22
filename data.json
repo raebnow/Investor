@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T13:58:54Z",
+  "updated": "2026-08-22T14:29:07Z",
   "quotes": {
     "dow": {
       "price": 53277.0117,
@@ -72,8 +72,8 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 29235.1,
-      "change": -39.4,
+      "price": 29235.3,
+      "change": -39.2,
       "pct": -0.13
     },
     "oil": {
