@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T03:37:32Z",
+  "updated": "2026-08-23T04:21:04Z",
   "quotes": {
     "dow": {
       "price": 53277.0117,
@@ -37,19 +37,19 @@
       "pct": 1.4126
     },
     "gold": {
-      "price": 4624.1001,
-      "change": 33.2002,
-      "pct": 0.7232
+      "price": 4680.6001,
+      "change": 89.7002,
+      "pct": 1.9539
     },
     "silver": {
-      "price": 69.466,
-      "change": 0.526,
-      "pct": 0.763
+      "price": 69.53,
+      "change": 0.59,
+      "pct": 0.8558
     },
     "copper": {
-      "price": 6.5795,
-      "change": 0.0415,
-      "pct": 0.6348
+      "price": 6.587,
+      "change": 0.049,
+      "pct": 0.7495
     },
     "wti": {
       "price": 87.06,
@@ -62,9 +62,9 @@
       "pct": 0.8332
     },
     "natgas": {
-      "price": 2.773,
-      "change": 0.02,
-      "pct": 0.7265
+      "price": 2.811,
+      "change": 0.058,
+      "pct": 2.1068
     }
   },
   "fear_greed": {
