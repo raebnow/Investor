@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T06:37:49Z",
+  "updated": "2026-08-24T07:43:16Z",
   "quotes": {
     "dow": {
       "price": 53277.0117,
@@ -22,64 +22,64 @@
       "pct": 0.85
     },
     "vix": {
-      "price": 15.13,
-      "change": -0.88,
-      "pct": -5.4966
+      "price": 15.9,
+      "change": 0.77,
+      "pct": 5.0892
     },
     "kospi": {
-      "price": 6713.6401,
-      "change": -199.3099,
-      "pct": -2.8831
+      "price": 6696.96,
+      "change": -215.99,
+      "pct": -3.1244
     },
     "kospi200": {
-      "price": 1056.89,
-      "change": -39.36,
-      "pct": -3.5904
+      "price": 1054.01,
+      "change": -42.24,
+      "pct": -3.8531
     },
     "gold": {
-      "price": 4699.5,
-      "change": 1.2998,
-      "pct": 0.0277
+      "price": 4700.1001,
+      "change": 1.8999,
+      "pct": 0.0404
     },
     "silver": {
-      "price": 69.085,
-      "change": 0.125,
-      "pct": 0.1813
+      "price": 69.035,
+      "change": 0.075,
+      "pct": 0.1088
     },
     "copper": {
-      "price": 6.5735,
-      "change": 0.0225,
-      "pct": 0.3435
+      "price": 6.5945,
+      "change": 0.0435,
+      "pct": 0.664
     },
     "wti": {
-      "price": 85.42,
-      "change": -0.36,
-      "pct": -0.4197
+      "price": 85.17,
+      "change": -0.61,
+      "pct": -0.7111
     },
     "brent": {
-      "price": 92.93,
-      "change": -0.17,
-      "pct": -0.1826
+      "price": 92.81,
+      "change": -0.29,
+      "pct": -0.3115
     },
     "natgas": {
-      "price": 2.773,
-      "change": -0.002,
-      "pct": -0.0721
+      "price": 2.798,
+      "change": 0.023,
+      "pct": 0.8288
     }
   },
   "fear_greed": {
-    "score": 67
+    "score": 62
   },
   "weekend": {
     "nasdaq": {
-      "price": 29056.3,
-      "change": -218.2,
-      "pct": -0.74
+      "price": 29082.8,
+      "change": -191.7,
+      "pct": -0.65
     },
     "oil": {
-      "price": 8499.8,
-      "change": -120.2,
-      "pct": -1.39
+      "price": 8478.9,
+      "change": -141.1,
+      "pct": -1.63
     }
   }
 }
