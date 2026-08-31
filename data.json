@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T05:55:36Z",
+  "updated": "2026-08-31T12:51:09Z",
   "quotes": {
     "dow": {
       "price": 53559.9883,
@@ -22,64 +22,64 @@
       "pct": -1.3923
     },
     "vix": {
-      "price": 14.43,
-      "change": -0.08,
-      "pct": -0.5513
+      "price": 15.31,
+      "change": 0.89,
+      "pct": 6.172
     },
     "kospi": {
-      "price": 6772.8701,
-      "change": -17.5498,
-      "pct": -0.2584
+      "price": 6820.02,
+      "change": 31.14,
+      "pct": 0.4587
     },
     "kospi200": {
-      "price": 1063.45,
-      "change": -3.29,
-      "pct": -0.3084
+      "price": 1071.85,
+      "change": 6.15,
+      "pct": 0.5771
     },
     "gold": {
-      "price": 4487.2002,
-      "change": 16.7002,
-      "pct": 0.3736
+      "price": 4492.5,
+      "change": 20.5,
+      "pct": 0.4584
     },
     "silver": {
-      "price": 67.325,
-      "change": 0.54,
-      "pct": 0.8086
+      "price": 67.535,
+      "change": 0.695,
+      "pct": 1.0398
     },
     "copper": {
-      "price": 6.6795,
-      "change": 0.0535,
-      "pct": 0.8074
+      "price": 6.6895,
+      "change": 0.043,
+      "pct": 0.647
     },
     "wti": {
-      "price": 85.63,
-      "change": 0.54,
-      "pct": 0.6346
+      "price": 86.14,
+      "change": 1.05,
+      "pct": 1.234
     },
     "brent": {
-      "price": 90.63,
-      "change": 0.49,
-      "pct": 0.5436
+      "price": 88.55,
+      "change": -1.59,
+      "pct": -1.7639
     },
     "natgas": {
-      "price": 2.869,
-      "change": -0.007,
-      "pct": -0.2434
+      "price": 2.866,
+      "change": -0.01,
+      "pct": -0.3477
     }
   },
   "fear_greed": {
-    "score": 63
+    "score": 58
   },
   "weekend": {
     "nasdaq": {
-      "price": 29366.6,
-      "change": -67.8,
-      "pct": -0.23
+      "price": 29322.3,
+      "change": -112.1,
+      "pct": -0.38
     },
     "oil": {
-      "price": 8476.7,
-      "change": 219.7,
-      "pct": 2.65
+      "price": 8538.2,
+      "change": 281.2,
+      "pct": 3.4
     }
   }
 }
