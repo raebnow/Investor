@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T09:33:00Z",
+  "updated": "2026-09-07T15:11:49Z",
   "quotes": {
     "dow": {
       "price": 53414.25,
@@ -22,18 +22,18 @@
       "pct": 0.2486
     },
     "vix": {
-      "price": 15.04,
-      "change": 0.52,
-      "pct": 3.5813
+      "price": 15.23,
+      "change": 0.71,
+      "pct": 4.8898
     },
     "kospi": {
-      "price": 6995.3901,
-      "change": 308.1801,
+      "price": 6995.39,
+      "change": 308.18,
       "pct": 4.6085
     },
     "kospi200": {
-      "price": 1105.1899,
-      "change": 53.6699,
+      "price": 1105.19,
+      "change": 53.67,
       "pct": 5.104
     },
     "gold": {
@@ -68,18 +68,18 @@
     }
   },
   "fear_greed": {
-    "score": 58
+    "score": 57
   },
   "weekend": {
     "nasdaq": {
-      "price": 29565.2,
-      "change": 92.6,
-      "pct": 0.31
+      "price": 29540.5,
+      "change": 67.9,
+      "pct": 0.23
     },
     "oil": {
-      "price": 8973.4,
-      "change": 20.9,
-      "pct": 0.23
+      "price": 9122.2,
+      "change": 169.7,
+      "pct": 1.89
     }
   }
 }
