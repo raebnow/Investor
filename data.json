@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08T04:41:29Z",
+  "updated": "2026-09-08T09:06:59Z",
   "quotes": {
     "dow": {
       "price": 53414.25,
@@ -22,64 +22,64 @@
       "pct": 0.2486
     },
     "vix": {
-      "price": 15.3,
-      "change": 0.78,
-      "pct": 5.3719
+      "price": 15.94,
+      "change": 0.64,
+      "pct": 4.183
     },
     "kospi": {
-      "price": 7162.7002,
-      "change": 187.5303,
-      "pct": 2.6885
+      "price": 6954.52,
+      "change": -40.87,
+      "pct": -0.5842
     },
     "kospi200": {
-      "price": 1135.72,
-      "change": 34.5599,
-      "pct": 3.1385
+      "price": 1100.08,
+      "change": -5.11,
+      "pct": -0.4624
     },
     "gold": {
-      "price": 4478.3999,
-      "change": 1.7998,
-      "pct": 0.0402
+      "price": 4437.2998,
+      "change": -39.3003,
+      "pct": -0.8779
     },
     "silver": {
-      "price": 67.61,
-      "change": 0.862,
-      "pct": 1.2914
+      "price": 66.495,
+      "change": -0.253,
+      "pct": -0.379
     },
     "copper": {
-      "price": 6.7985,
-      "change": 0.116,
-      "pct": 1.7359
+      "price": 6.7665,
+      "change": 0.084,
+      "pct": 1.257
     },
     "wti": {
-      "price": 93.0,
-      "change": 1.52,
-      "pct": 1.6616
+      "price": 94.58,
+      "change": 3.1,
+      "pct": 3.3887
     },
     "brent": {
-      "price": 97.61,
-      "change": 1.33,
-      "pct": 1.3814
+      "price": 99.27,
+      "change": 2.99,
+      "pct": 3.1055
     },
     "natgas": {
-      "price": 2.951,
-      "change": -0.024,
-      "pct": -0.8067
+      "price": 2.979,
+      "change": 0.004,
+      "pct": 0.1345
     }
   },
   "fear_greed": {
-    "score": 57
+    "score": 53
   },
   "weekend": {
     "nasdaq": {
-      "price": 29708.6,
-      "change": 167.2,
-      "pct": 0.57
+      "price": 29454.9,
+      "change": -86.5,
+      "pct": -0.29
     },
     "oil": {
-      "price": 9092.4,
-      "change": 23.6,
-      "pct": 0.26
+      "price": 9206.9,
+      "change": 138.1,
+      "pct": 1.52
     }
   }
 }
