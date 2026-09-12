@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T23:59:27Z",
+  "updated": "2026-09-12T04:22:48Z",
   "quotes": {
     "dow": {
       "price": 52573.2891,
@@ -17,9 +17,9 @@
       "pct": 0.9103
     },
     "russell": {
-      "price": 2903.9443,
-      "change": 12.9973,
-      "pct": 0.4496
+      "price": 2903.9399,
+      "change": 12.9929,
+      "pct": 0.4494
     },
     "vix": {
       "price": 15.84,
@@ -27,8 +27,8 @@
       "pct": -11.2108
     },
     "kospi": {
-      "price": 6909.91,
-      "change": -124.01,
+      "price": 6909.9102,
+      "change": -124.0098,
       "pct": -1.763
     },
     "kospi200": {
@@ -37,34 +37,34 @@
       "pct": -1.9701
     },
     "gold": {
-      "price": 4390.0,
-      "change": 45.0,
-      "pct": 1.0357
+      "price": 4366.2002,
+      "change": 21.2002,
+      "pct": 0.4879
     },
     "silver": {
-      "price": 65.02,
-      "change": 1.45,
-      "pct": 2.2809
+      "price": 64.554,
+      "change": 0.984,
+      "pct": 1.5479
     },
     "copper": {
-      "price": 6.557,
-      "change": 0.0305,
-      "pct": 0.4673
+      "price": 6.4695,
+      "change": -0.057,
+      "pct": -0.8734
     },
     "wti": {
-      "price": 99.99,
-      "change": -3.23,
-      "pct": -3.1292
+      "price": 100.05,
+      "change": -3.17,
+      "pct": -3.0711
     },
     "brent": {
-      "price": 104.42,
-      "change": -4.09,
-      "pct": -3.7692
+      "price": 104.61,
+      "change": -3.9,
+      "pct": -3.5941
     },
     "natgas": {
-      "price": 2.82,
-      "change": -0.013,
-      "pct": -0.4589
+      "price": 2.831,
+      "change": -0.002,
+      "pct": -0.0706
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 29345.7,
-      "change": -2.8,
-      "pct": -0.01
+      "price": 29316.3,
+      "change": -32.2,
+      "pct": -0.11
     },
     "oil": {
-      "price": 9725.5,
-      "change": 35.5,
-      "pct": 0.37
+      "price": 9598.9,
+      "change": -91.1,
+      "pct": -0.94
     }
   }
 }
