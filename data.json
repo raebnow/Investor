@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T01:01:37Z",
+  "updated": "2026-10-11T07:03:33Z",
   "quotes": {
     "dow": {
       "price": 51654.9492,
@@ -42,14 +42,14 @@
       "pct": 0.3332
     },
     "silver": {
-      "price": 60.67,
-      "change": 0.22,
-      "pct": 0.3639
+      "price": 61.048,
+      "change": 0.598,
+      "pct": 0.9892
     },
     "copper": {
-      "price": 6.6425,
-      "change": -0.001,
-      "pct": -0.0151
+      "price": 6.692,
+      "change": 0.0485,
+      "pct": 0.73
     },
     "wti": {
       "price": 91.85,
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 30897.2,
-      "change": 22.1,
-      "pct": 0.07
+      "price": 30880.6,
+      "change": 5.5,
+      "pct": 0.02
     },
     "oil": {
-      "price": 9127.2,
-      "change": 34.2,
-      "pct": 0.38
+      "price": 9070.7,
+      "change": -22.3,
+      "pct": -0.24
     }
   }
 }
