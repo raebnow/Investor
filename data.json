@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T05:56:12Z",
+  "updated": "2026-10-16T10:54:06Z",
   "quotes": {
     "dow": {
       "price": 52177.6914,
@@ -22,64 +22,64 @@
       "pct": 1.3826
     },
     "vix": {
-      "price": 16.46,
-      "change": -0.39,
-      "pct": -2.3145
+      "price": 16.1,
+      "change": -0.36,
+      "pct": -2.1871
     },
     "kospi": {
-      "price": 5736.29,
-      "change": 251.9102,
-      "pct": 4.5932
+      "price": 5668.0498,
+      "change": 113.8298,
+      "pct": 2.0494
     },
     "kospi200": {
-      "price": 888.73,
-      "change": 40.12,
-      "pct": 4.7277
+      "price": 878.16,
+      "change": 17.46,
+      "pct": 2.0286
     },
     "gold": {
-      "price": 4193.8999,
-      "change": 3.8999,
-      "pct": 0.0931
+      "price": 4202.7002,
+      "change": -1.6997,
+      "pct": -0.0404
     },
     "silver": {
-      "price": 57.82,
-      "change": 0.12,
-      "pct": 0.208
+      "price": 57.95,
+      "change": -0.115,
+      "pct": -0.1981
     },
     "copper": {
-      "price": 6.631,
-      "change": 0.007,
-      "pct": 0.1057
+      "price": 6.6325,
+      "change": -0.0095,
+      "pct": -0.143
     },
     "wti": {
       "price": 95.79,
-      "change": -0.43,
-      "pct": -0.4469
+      "change": 0.12,
+      "pct": 0.1254
     },
     "brent": {
-      "price": 105.18,
-      "change": -0.61,
-      "pct": -0.5766
+      "price": 105.88,
+      "change": 0.72,
+      "pct": 0.6847
     },
     "natgas": {
-      "price": 3.218,
-      "change": 0.01,
-      "pct": 0.3117
+      "price": 3.184,
+      "change": -0.037,
+      "pct": -1.1487
     }
   },
   "fear_greed": {
-    "score": 52
+    "score": 54
   },
   "weekend": {
     "nasdaq": {
-      "price": 29955.4,
-      "change": 105.0,
-      "pct": 0.35
+      "price": 29882.2,
+      "change": 31.8,
+      "pct": 0.11
     },
     "oil": {
-      "price": 9575.2,
-      "change": -65.7,
-      "pct": -0.68
+      "price": 9575.7,
+      "change": -65.2,
+      "pct": -0.67
     }
   }
 }
