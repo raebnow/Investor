@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T06:39:14Z",
+  "updated": "2026-10-20T12:12:40Z",
   "quotes": {
     "dow": {
       "price": 51966.0312,
@@ -22,64 +22,64 @@
       "pct": 0.2547
     },
     "vix": {
-      "price": 18.44,
-      "change": -1.54,
-      "pct": -7.7077
+      "price": 18.89,
+      "change": 0.46,
+      "pct": 2.4959
     },
     "kospi": {
-      "price": 5544.3398,
-      "change": -223.6702,
-      "pct": -3.8778
+      "price": 5552.7402,
+      "change": -215.2698,
+      "pct": -3.7321
     },
     "kospi200": {
-      "price": 857.29,
-      "change": -34.01,
-      "pct": -3.8158
+      "price": 858.78,
+      "change": -32.52,
+      "pct": -3.6486
     },
     "gold": {
-      "price": 4148.8999,
-      "change": -16.3999,
-      "pct": -0.3937
+      "price": 4139.2998,
+      "change": -26.0,
+      "pct": -0.6242
     },
     "silver": {
-      "price": 57.55,
-      "change": -0.07,
-      "pct": -0.1215
+      "price": 57.17,
+      "change": -0.45,
+      "pct": -0.781
     },
     "copper": {
-      "price": 6.5665,
-      "change": -0.008,
-      "pct": -0.1217
+      "price": 6.569,
+      "change": -0.0055,
+      "pct": -0.0837
     },
     "wti": {
-      "price": 98.75,
-      "change": 0.29,
-      "pct": 0.2945
+      "price": 100.8,
+      "change": 2.21,
+      "pct": 2.2416
     },
     "brent": {
-      "price": 110.02,
-      "change": 0.47,
-      "pct": 0.429
+      "price": 111.42,
+      "change": 1.68,
+      "pct": 1.5309
     },
     "natgas": {
-      "price": 3.011,
-      "change": -0.019,
-      "pct": -0.6271
+      "price": 3.008,
+      "change": -0.024,
+      "pct": -0.7916
     }
   },
   "fear_greed": {
-    "score": 45
+    "score": 43
   },
   "weekend": {
     "nasdaq": {
-      "price": 29451.4,
-      "change": -82.4,
-      "pct": -0.28
+      "price": 29318.6,
+      "change": -215.2,
+      "pct": -0.73
     },
     "oil": {
-      "price": 9849.3,
-      "change": 43.9,
-      "pct": 0.45
+      "price": 10040.5,
+      "change": 235.1,
+      "pct": 2.39
     }
   }
 }
