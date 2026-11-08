@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T01:59:02Z",
+  "updated": "2026-11-08T08:52:38Z",
   "quotes": {
     "dow": {
       "price": 51285.7305,
@@ -42,14 +42,14 @@
       "pct": 0.5205
     },
     "silver": {
-      "price": 51.803,
-      "change": 0.258,
-      "pct": 0.5005
+      "price": 51.942,
+      "change": 0.397,
+      "pct": 0.7702
     },
     "copper": {
-      "price": 6.218,
-      "change": -0.0095,
-      "pct": -0.1525
+      "price": 6.2375,
+      "change": 0.01,
+      "pct": 0.1606
     },
     "wti": {
       "price": 90.83,
@@ -62,9 +62,7 @@
       "pct": -1.3446
     },
     "natgas": {
-      "price": 2.998,
-      "change": 0.042,
-      "pct": 1.4208
+      "error": "가격 없음"
     }
   },
   "fear_greed": {
@@ -72,14 +70,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 26925.7,
-      "change": -61.8,
-      "pct": -0.23
+      "price": 26935.7,
+      "change": -51.8,
+      "pct": -0.19
     },
     "oil": {
-      "price": 8996.7,
-      "change": 50.7,
-      "pct": 0.57
+      "price": 9016.5,
+      "change": 70.5,
+      "pct": 0.79
     }
   }
 }
