@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T08:52:38Z",
+  "updated": "2026-11-08T15:40:59Z",
   "quotes": {
     "dow": {
       "price": 51285.7305,
@@ -62,7 +62,9 @@
       "pct": -1.3446
     },
     "natgas": {
-      "error": "가격 없음"
+      "price": 2.998,
+      "change": 0.042,
+      "pct": 1.4208
     }
   },
   "fear_greed": {
@@ -70,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 26935.7,
-      "change": -51.8,
-      "pct": -0.19
+      "price": 26950.5,
+      "change": -37.0,
+      "pct": -0.14
     },
     "oil": {
-      "price": 9016.5,
-      "change": 70.5,
-      "pct": 0.79
+      "price": 9023.6,
+      "change": 77.6,
+      "pct": 0.87
     }
   }
 }
