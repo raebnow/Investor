@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T21:25:14Z",
+  "updated": "2026-11-10T03:42:22Z",
   "quotes": {
     "dow": {
       "price": 52389.75,
@@ -22,49 +22,49 @@
       "pct": 3.1653
     },
     "vix": {
-      "price": 19.96,
-      "change": -5.67,
-      "pct": -22.1225
+      "price": 19.92,
+      "change": -5.71,
+      "pct": -22.2786
     },
     "kospi": {
-      "price": 5018.85,
-      "change": -82.5899,
-      "pct": -1.619
+      "price": 5232.1401,
+      "change": 203.6602,
+      "pct": 4.0501
     },
     "kospi200": {
-      "price": 778.35,
-      "change": -11.26,
-      "pct": -1.426
+      "price": 813.73,
+      "change": 33.53,
+      "pct": 4.2976
     },
     "gold": {
-      "price": 4146.6001,
-      "change": 13.3003,
-      "pct": 0.3218
+      "price": 4124.7002,
+      "change": -8.5996,
+      "pct": -0.2081
     },
     "silver": {
-      "price": 53.3,
-      "change": 0.185,
-      "pct": 0.3483
+      "price": 53.115,
+      "change": 0.0,
+      "pct": 0.0
     },
     "copper": {
-      "price": 6.374,
-      "change": 0.028,
-      "pct": 0.4412
+      "price": 6.3515,
+      "change": 0.0055,
+      "pct": 0.0867
     },
     "wti": {
-      "price": 87.02,
-      "change": -4.29,
-      "pct": -4.6983
+      "price": 85.95,
+      "change": -5.36,
+      "pct": -5.8701
     },
     "brent": {
-      "price": 92.83,
-      "change": -5.51,
-      "pct": -5.603
+      "price": 91.78,
+      "change": -6.56,
+      "pct": -6.6707
     },
     "natgas": {
-      "price": 3.214,
-      "change": 0.191,
-      "pct": 6.3182
+      "price": 3.205,
+      "change": 0.182,
+      "pct": 6.0205
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 27861.2,
-      "change": 873.7,
-      "pct": 3.24
+      "price": 27769.4,
+      "change": -177.9,
+      "pct": -0.64
     },
     "oil": {
-      "price": 8613.1,
-      "change": 113.0,
-      "pct": 1.33
+      "price": 8469.6,
+      "change": -30.5,
+      "pct": -0.36
     }
   }
 }
