@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T23:29:15Z",
+  "updated": "2026-11-14T03:29:42Z",
   "quotes": {
     "dow": {
       "price": 52347.5508,
@@ -23,12 +23,12 @@
     },
     "vix": {
       "price": 19.3,
-      "change": 0.61,
-      "pct": 3.2638
+      "change": 0.42,
+      "pct": 2.2246
     },
     "kospi": {
-      "price": 5290.53,
-      "change": -30.72,
+      "price": 5290.5298,
+      "change": -30.7202,
       "pct": -0.5773
     },
     "kospi200": {
@@ -72,13 +72,13 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 27675.2,
-      "change": -136.1,
-      "pct": -0.49
+      "price": 27672.6,
+      "change": -138.7,
+      "pct": -0.5
     },
     "oil": {
-      "price": 8773.2,
-      "change": 11.9,
+      "price": 8773.6,
+      "change": 12.3,
       "pct": 0.14
     }
   }
