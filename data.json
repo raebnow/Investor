@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T03:29:42Z",
+  "updated": "2026-11-14T10:51:05Z",
   "quotes": {
     "dow": {
       "price": 52347.5508,
@@ -12,19 +12,19 @@
       "pct": -0.3977
     },
     "nasdaq": {
-      "price": 27943.7363,
-      "change": -342.9805,
+      "price": 27943.7402,
+      "change": -342.9766,
       "pct": -1.2125
     },
     "russell": {
-      "price": 2790.4895,
-      "change": -8.8596,
+      "price": 2790.49,
+      "change": -8.8591,
       "pct": -0.3165
     },
     "vix": {
       "price": 19.3,
-      "change": 0.42,
-      "pct": 2.2246
+      "change": 0.61,
+      "pct": 3.2638
     },
     "kospi": {
       "price": 5290.5298,
@@ -37,34 +37,34 @@
       "pct": -0.7807
     },
     "gold": {
-      "price": 3887.6001,
-      "change": -29.5,
-      "pct": -0.7531
+      "price": 3886.3,
+      "change": -30.8,
+      "pct": -0.7863
     },
     "silver": {
-      "price": 48.65,
-      "change": -1.595,
-      "pct": -3.1744
+      "price": 49.031,
+      "change": -1.214,
+      "pct": -2.4162
     },
     "copper": {
-      "price": 6.0635,
-      "change": -0.1355,
-      "pct": -2.1858
+      "price": 6.0795,
+      "change": -0.1195,
+      "pct": -1.9277
     },
     "wti": {
-      "price": 88.92,
-      "change": 0.67,
-      "pct": 0.7592
+      "price": 88.56,
+      "change": 0.31,
+      "pct": 0.3513
     },
     "brent": {
-      "price": 96.08,
-      "change": 0.45,
-      "pct": 0.4706
+      "price": 95.84,
+      "change": 0.21,
+      "pct": 0.2196
     },
     "natgas": {
-      "price": 3.242,
-      "change": -0.09,
-      "pct": -2.7011
+      "price": 3.23,
+      "change": -0.102,
+      "pct": -3.0612
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 27672.6,
-      "change": -138.7,
-      "pct": -0.5
+      "price": 27744.6,
+      "change": -66.7,
+      "pct": -0.24
     },
     "oil": {
-      "price": 8773.6,
-      "change": 12.3,
-      "pct": 0.14
+      "price": 8780.0,
+      "change": 18.7,
+      "pct": 0.21
     }
   }
 }
