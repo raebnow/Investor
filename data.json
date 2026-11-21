@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T23:05:23Z",
+  "updated": "2026-11-21T03:55:21Z",
   "quotes": {
     "dow": {
       "price": 48147.3281,
@@ -23,12 +23,12 @@
     },
     "vix": {
       "price": 35.89,
-      "change": 7.42,
-      "pct": 26.0625
+      "change": 7.33,
+      "pct": 25.6653
     },
     "kospi": {
       "price": 4869.96,
-      "change": -215.0302,
+      "change": -215.0303,
       "pct": -4.2287
     },
     "kospi200": {
@@ -63,8 +63,8 @@
     },
     "natgas": {
       "price": 3.791,
-      "change": 0.56,
-      "pct": 17.3321
+      "change": 0.559,
+      "pct": 17.2958
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 25201.3,
-      "change": 5.1,
-      "pct": 0.02
+      "price": 25157.5,
+      "change": -38.7,
+      "pct": -0.15
     },
     "oil": {
-      "price": 8340.4,
-      "change": 0.4,
-      "pct": 0.0
+      "price": 8331.0,
+      "change": -9.0,
+      "pct": -0.11
     }
   }
 }
