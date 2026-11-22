@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T23:47:30Z",
+  "updated": "2026-11-22T03:31:43Z",
   "quotes": {
     "dow": {
       "price": 48147.3281,
@@ -63,8 +63,8 @@
     },
     "natgas": {
       "price": 3.411,
-      "change": 0.18,
-      "pct": 5.571
+      "change": 0.179,
+      "pct": 5.5384
     }
   },
   "fear_greed": {
@@ -72,14 +72,14 @@
   },
   "weekend": {
     "nasdaq": {
-      "price": 25453.4,
-      "change": 249.7,
-      "pct": 0.99
+      "price": 25417.6,
+      "change": 213.9,
+      "pct": 0.85
     },
     "oil": {
-      "price": 8410.4,
-      "change": 70.4,
-      "pct": 0.84
+      "price": 8411.6,
+      "change": 71.6,
+      "pct": 0.86
     }
   }
 }
